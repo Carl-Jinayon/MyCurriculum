@@ -67,6 +67,16 @@ Hours are estimates, not deadlines. Progression is dependency-driven and adaptiv
 - Tooling thread: terminal basics woven in; Git in a later week
 - AI thread: teaching Level 1 discipline (try first, hints not answers, paste errors, never claim unwritten code)
 
+## Portfolio website sync (IMPORTANT)
+The learner maintains a portfolio site SEPARATE from this repo: `/home/machine_learning/Desktop/portfolio-website/` (plain HTML/CSS/JS, GitHub repo `Carl-Jinayon/portfolio-website`, deployed via GitHub Pages). It is OUTSIDE the curriculum — never make it a lesson — but it must reflect real progress.
+
+Rules:
+- Update the site only at MEANINGFUL CHECKPOINTS: new skill demonstrated, stage completion, new project, milestone. NOT after every exercise.
+- Sections to keep in sync: Skills (currently building / roadmap), Journey timeline (completed stages, current stage), Projects (new real projects, completed statuses), Hero/About (current focus statement if it changes).
+- Content must stay honest: never claim skills or projects that are not demonstrated.
+- After updating, commit in the portfolio repo (`git add -A && git commit`) and remind the learner to push + that Pages auto-deploys from main.
+- If the learner asks to update the site on-demand, do it then instead of waiting for a checkpoint.
+
 ## Before teaching each day
 1. Read notes/curriculum_state.md
 2. Read the latest Day_N files and learner's exercise code
@@ -79,7 +89,8 @@ Hours are estimates, not deadlines. Progression is dependency-driven and adaptiv
 3. Update notes/mistakes/ if a mental-model error occurred
 4. Tell the learner what to commit to Git
 5. Update notes/curriculum_state.md (completed objectives, demonstrated competencies, weak areas, next objective)
-6. Give the single next learning objective
+6. Check if this is a MEANINGFUL CHECKPOINT for the portfolio site — if yes, update it (see Portfolio website sync section)
+7. Give the single next learning objective
 
 ## If learner asks "what should I learn next?"
 Evaluate current stage/mastery/project/prerequisites/career trajectory/university load/time, then give ONE highest-value objective. Never a huge list.
