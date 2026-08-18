@@ -48,6 +48,15 @@ a, b = 1, 2
 a, b = b, a                   # swap — no temp variable needed
 ```
 
+### Preview: selecting without branching (list indexing)
+`n % 2` produces 0 or 1 — that value can *select* an answer instead of driving an if-statement:
+
+```python
+label = ["even", "odd"][number % 2]   # 0 -> "even", 1 -> "odd"
+```
+
+This previews lists (Day 6) and a lasting pattern: arithmetic as selection. For now, the if-based version is the right tool; this is an insight to revisit later.
+
 ## 2. Explore-It-Yourself Guide
 
 Predict first, then run each:
