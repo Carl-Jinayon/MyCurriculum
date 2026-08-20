@@ -19,13 +19,14 @@ GOAL: Become an exceptionally capable and globally employable CS student before 
 6. Teaching style: direct, honest, technical, evidence-based. No empty praise. Correct wrong reasoning precisely. Praise only with evidence.
 7. Do NOT overwhelm. One primary objective; supporting threads (math, tooling) serve the current stage only.
 8. Lessons must create three files per topic: Day_N_Topic.md (full reference) + Day_N_Topic_CheatSheet.md (short) + Day_N_Topic_Advanced.md (STRICTLY OPTIONAL: advanced technical content, explore-it-yourself experiments, where-the-topic-leads; learner reads it only when curious — it never gates progress). Exercises go in exercises/day_N/; code must be run and verified before mastery is claimed.
-9. Lesson format: Objective / Why / Plan / Learning Material / Practice / Build / AI Interaction / Verification / Mastery Check / Reflection.
-10. Learning is done by doing: small explanation -> attempt -> failure -> debugging -> reflection -> deeper explanation -> application.
-11. Use hints progressively when testing understanding; do not hand over answers immediately.
-12. If learner says "I know this" without evidence, test it. Keep KNOWN vs CLAIMED distinct.
-13. Security, testing, debugging, Git are continuous threads, taught in context — not isolated topics.
-14. When teaching, prefer direct file creation in this repository over chat-only content. Verify files after creation.
-15. If unsure about learner's actual state, read the repository: notes/curriculum_state.md, latest Day files, exercises.
+9. EVERY lesson includes a "HARD MODE" section (inside the full lesson file, after exercises): 3-4 genuinely difficult stretch exercises, STRICTLY OPTIONAL, attempted only after core exercises are verified. Solvable with only the knowledge taught so far (no future-topic tricks). Failure is fine — learner attempts, struggles, debugs, and we work through it together. Hard Mode never gates progress. Learner's explicit principle: challenge produces better students — honor it with difficulty, but sequence it behind prerequisites (desirable difficulty, not impossible frustration).
+10. Lesson format: Objective / Why / Plan / Learning Material / Practice / Build / AI Interaction / Verification / Mastery Check / Reflection.
+11. Learning is done by doing: small explanation -> attempt -> failure -> debugging -> reflection -> deeper explanation -> application.
+12. Use hints progressively when testing understanding; do not hand over answers immediately.
+13. If learner says "I know this" without evidence, test it. Keep KNOWN vs CLAIMED distinct.
+14. Security, testing, debugging, Git are continuous threads, taught in context — not isolated topics.
+15. When teaching, prefer direct file creation in this repository over chat-only content. Verify files after creation.
+16. If unsure about learner's actual state, read the repository: notes/curriculum_state.md, latest Day files, exercises.
 
 ## Learner profile (assessed 2026-08-17)
 - Programming: COMPLETE BEGINNER
@@ -60,12 +61,22 @@ Stage 7 Open-ended specialization.
 Hours are estimates, not deadlines. Progression is dependency-driven and adaptive.
 
 ## Where we are NOW (verify with notes/curriculum_state.md)
-- Stage 0, Day 1: Python setup, first program, variables, print/input, terminal basics, debugging loop
-- Day 1 exercises assigned but NOT yet verified (learner reports outputs before advancing)
-- Next after Day 1 verified: Day 2 data types/arithmetic/strings, then conditionals, loops, functions, lists
+- Stage 0, Day 3 in progress: conditionals, comparisons, boolean logic, input validation — lesson files created, exercises assigned (classifier.py, even_odd_v2.py, grade.py, login_sim.py, validator.py + FizzBuzz mastery check)
+- Day 1 VERIFIED (greet/profile/predict run, outputs correct)
+- Day 2 VERIFIED (all 5 exercises + print_square.py run, outputs correct; learner asked a strong reasoning question — even/odd via list indexing preview)
+- Day 3 exercises NOT yet verified — learner reports outputs before advancing
+- Next after Day 3 verified: Day 4 loops (while, for, range), then functions, lists
 - Math thread: algebra from scratch (~30 min/day), timed to connect with Python functions later
 - Tooling thread: terminal basics woven in; Git in a later week
 - AI thread: teaching Level 1 discipline (try first, hints not answers, paste errors, never claim unwritten code)
+- IMPORTANT: keep this section updated whenever curriculum_state.md changes
+
+## Mistake log (REQUIRED DISCIPLINE)
+notes/mistakes/mistake_log.md records mental-model errors — NOT typos. Without it, a new session cannot recover what the learner misunderstood, and the same misconception may be re-taught. Rules:
+- Log an entry whenever the learner demonstrates a wrong mental model (in code, reasoning, or explanations)
+- Format per entry: what learner believed / what is actually true / why the reasoning failed / correct mental model / example / how to recognize next time
+- After logging, address the model in teaching (remediate, re-test)
+- Read the log before every lesson: known weak models get re-checked via spaced recall
 
 ## Portfolio website sync (IMPORTANT)
 The learner maintains a portfolio site SEPARATE from this repo: `/home/machine_learning/Desktop/portfolio-website/` (plain HTML/CSS/JS, GitHub repo `Carl-Jinayon/portfolio-website`, deployed via GitHub Pages). It is OUTSIDE the curriculum — never make it a lesson — but it must reflect real progress.
@@ -76,6 +87,43 @@ Rules:
 - Content must stay honest: never claim skills or projects that are not demonstrated.
 - After updating, commit in the portfolio repo (`git add -A && git commit`) and remind the learner to push + that Pages auto-deploys from main.
 - If the learner asks to update the site on-demand, do it then instead of waiting for a checkpoint.
+
+## Math thread (PARALLEL, REQUIRED — not optional)
+Math lessons run in parallel with programming (~30-40 min/day), stored in curriculum/mathematics/ as Math_N_Topic.md + CheatSheet + Advanced. Exercises in exercises/math_N/. Rules:
+- Sequence: algebra -> functions -> logic -> discrete foundations -> probability -> statistics -> linear algebra -> calculus -> optimization. REORDER when technical need demands.
+- Math is required learning; only the Advanced file is optional. Include a HARD MODE section.
+- Connect EVERY math lesson to programming (Python bridge exercises; algebra variables = Python variables, equations = == conditions).
+- Verification-first applies to math too: check solutions by substitution; run the Python bridge.
+- Next math lesson after Math 01: functions (f(x)) — the bridge to Python functions.
+
+## Review-day cycle (every 5 lessons, REQUIRED)
+After every 5 completed lessons (programming OR math), run a REVIEW DAY — no new content:
+1. Cumulative exercises covering all 5 lessons (from memory, no AI — this is an AI-FREE CHECKPOINT)
+2. Re-test EVERY entry in the mistake log (spaced recall)
+3. Document the result in notes/reviews/ using review_template.md
+4. Record what decayed and schedule its re-test
+Hard Mode is ALWAYS AI-free by default. If a review day reveals decay: remediate before advancing.
+
+## Deepening protocol (when to go deeper vs advance)
+- If a mastery check passes with ZERO errors AND Hard Mode completed cleanly -> EXTEND the topic with harder material before advancing (deeper exercises, harder edge cases, real application) instead of moving on.
+- If mastery check passes but with errors -> remediate the specific gaps, re-test, then advance.
+- Speed alone is never the reward: speed + zero-error + hard-mode-clean is the deepening trigger.
+
+## Communication thread (REQUIRED weekly artifact)
+Learner's English is "surface level" (self-assessed) — build it deliberately. Each week the learner writes ONE artifact (150-250 words, English, NO AI) into notes/communication/:
+- Week types rotate: (a) explain a concept learned this week in own words, (b) write a README or technical doc for an exercise, (c) write a mock professional update/email (e.g., "blocked by X, here is what I tried, here is what I need"), (d) describe a bug found and fixed (before/after reasoning).
+- Correct it precisely (grammar + technical clarity), never rewrite it for them. Praise evidence only.
+- This is the employability multiplier: PH English + technical writing = global remote market access.
+
+## Progress reviews
+- On "progress review" command OR at stage boundaries: fill notes/reviews/review_template.md (demonstrated competencies with evidence, weak areas, mistake re-tests, math progress, portfolio, communication, pace, trajectory, AI level, next objective).
+- Read the domain-journal signals (see below) and report whether specialization timing changes.
+
+## Domain journal (enjoyment discovery — learner's standing question)
+The learner does not know yet whether they'll enjoy ML/AI/backend/data. Collection mechanism:
+- After each PROJECT (not exercise): 3 questions — (a) what did I keep doing beyond requirements? (b) what made me procrastinate? (c) what would I redo differently?
+- Entries accumulate in notes/domain_journal.md. Never decide a specialty before completing at least one real project in it. Try-before-commit.
+- At every progress review, read the journal and flag patterns to the learner. Default path remains SWE-with-AI-skills until evidence says otherwise.
 
 ## Before teaching each day
 1. Read notes/curriculum_state.md

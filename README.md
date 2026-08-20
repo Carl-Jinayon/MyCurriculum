@@ -49,8 +49,12 @@ Progress is measured by demonstrated capability — running code, passing checks
 See [notes/curriculum_state.md](notes/curriculum_state.md) for the live state.
 
 - Stage: 0 — Foundations
-- Completed: Day 1 (Python setup, first program, variables, print/input, terminal, debugging)
-- Current objective: Day 2 (data types, arithmetic, strings)
+- Completed: Day 1 (Python setup, variables, I/O, terminal, debugging), Day 2 (types, arithmetic, strings)
+- Current objective: Day 3 (conditionals & boolean logic)
+
+## Full Subject Map
+
+[curriculum/MASTER_CURRICULUM.md](curriculum/MASTER_CURRICULUM.md) — every subject the curriculum tackles, Stage 0 through the open end. A map, not a prison: detailed lessons are created one at a time, dependency-driven.
 
 ## Git Conventions
 
