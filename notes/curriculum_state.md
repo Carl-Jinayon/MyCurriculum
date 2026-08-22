@@ -1,6 +1,6 @@
 # Curriculum State
 
-Updated: 2026-08-17
+Updated: 2026-08-22
 
 ## Learner Profile
 - 20, 3rd-year CS student, Philippines, ~2 years from graduation
@@ -11,12 +11,12 @@ Updated: 2026-08-17
 - Stage 0 — Foundations (in progress)
 
 ## Current Learning Objective
-- Day 6: lists (creation, operations, iteration, mutability) — lesson created
-- Parallel thread: Math Day 1 — algebra (variables, expressions, equations) — VERIFIED; next Math_02 functions
+- Learner doing Math Day 2 FIRST (functions f(x)), then Day 7 (tuples/sets/dicts) — BOTH lesson sets created and ready
+- Math_02 exercises: exercises/Math/math_02/ | Day 7 exercises: exercises/Foundations/day_07/
 
 ## Active Threads (in addition to main objective)
 - Math thread: Math_01 VERIFIED (algebra); next Math_02 functions
-- Communication thread: weekly artifact in notes/communication/ (Week 01 done)
+- Communication thread: Week 01 done; Week 02 artifact due
 - Review cycle: Review Day 1 complete; next after Day 10
 - Domain journal: starts at first real project
 
@@ -26,6 +26,10 @@ Updated: 2026-08-17
 - Day 3 (2026-08-19): conditionals, comparisons, boolean logic, input validation — VERIFIED (classifier, even_odd_v2, grade, login_sim, validator, FizzBuzz mastery); login_sim empty-input bug found and fixed by learner
 - Day 4 (2026-08-20): loops — while, for, range, break/continue/else — VERIFIED (countdown, sum_until_zero, multiplication_table, guess_game, pattern_printer, validation_retry, mastery sum 1..N + traces correct); guess_game attempts off-by-one found, learner fixed
 - Day 5 (2026-08-21): functions (parameters, return, scope) — VERIFIED (my_functions, string_utils, temperature, validator_fn, calculator_fns)
+- Math Day 1 (2026-08-22): algebra — VERIFIED (evaluation, simplification, one-step equations with checks, word problems, python bridge)
+- Review Day 1 (2026-08-22): cumulative Days 1–5, AI-free — VERIFIED (6/6 exercises; factorial even/odd fix; README documented)
+- Communication Week 01 (2026-08-22): concepts explained in own words — DONE
+- Day 6 (2026-08-22): lists — VERIFIED (basics/slicing, methods incl. reverse, enumerate + accumulator stats, nested comprehension grid, aliasing demo, filter via comprehension AND loop); coaching note: avoid shadowing built-in names (max/min → maximum/minimum, fixed)
 
 ## Assessed Levels (2026-08-17)
 - Programming: complete beginner
@@ -49,6 +53,7 @@ Updated: 2026-08-17
 - Debugging: found and fixed own bugs (login_sim empty-input, guess_game off-by-one) from feedback
 - Defines functions with parameters, return values; understands local vs global scope; uses default parameters
 - Composes programs from small functions (validator_fn, string_utils, temperature conversions)
+- Lists: indexing/slicing/negative indices, core methods (append/extend/pop/remove/index/count/sort/reverse/copy), enumerate/zip awareness, nested list grids via comprehension, aliasing vs copy understood and demonstrated, filtering via both comprehension and loop
 
 ## Weak Areas
 - All foundational areas (by assessment, not failure)

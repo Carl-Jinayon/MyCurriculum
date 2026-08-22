@@ -138,6 +138,31 @@ for row in grid:
 5. `aliasing_demo.py` — demonstrate the aliasing bug: `a = [1,2,3]; b = a; b[0] = 99; print(a)` → then fix with `b = a[:]` and show `a` unchanged.
 6. `filter_list.py` — given a list of numbers, create a new list containing only even numbers (use list comprehension and also a loop with accumulator).
 
+## HARD MODE — Stretch Exercises (STRICTLY OPTIONAL)
+Attempt ONLY after the core exercises are verified. These are deliberately harder —
+they push your reasoning. Failure is fine: attempt, struggle, debug. Each must be solved
+with only Day 1–6 knowledge (variables, conditionals, loops, functions, lists). No
+future-topic tricks.
+
+1. `rotate.py` — write `rotate_left(lst, k)` that returns a new list rotated left by k
+   positions. Example: `rotate_left([1,2,3,4,5], 2)` → `[3,4,5,1,2]`. Handle k > len.
+   Do not use `collections.deque` — use slicing.
+
+2. `interleave.py` — write `interleave(a, b)` that merges two lists by alternating
+   elements: `[1,2,3]` + `[4,5,6]` → `[1,4,2,5,3,6]`. If lengths differ, append the
+   remainder of the longer list. Use `zip` and list comprehension.
+
+3. `flatten.py` — write `flatten(nested)` that takes a list of lists (or deeper) and
+   returns a single flat list. Example: `[[1,2],[3,[4,5]]]` → `[1,2,3,4,5]`. Use
+   recursion (allowed since you know functions). Handle arbitrary nesting.
+
+4. `group_consecutive.py` — given a sorted list of integers, group consecutive runs
+   into sublists. Example: `[1,2,3,5,6,9]` → `[[1,2,3], [5,6], [9]]`. Use a single
+   pass with accumulator pattern. This is a real-world pattern for run-length encoding.
+
+The point of Hard Mode: these require decomposing problems into list operations you
+already know — exactly the size of problem you'll decompose daily as an engineer.
+
 ## Build
 `filter_list.py` done well is today's build: demonstrates list comprehension vs loop, filtering, and creating new lists without mutating original.
 

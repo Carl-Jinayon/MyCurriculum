@@ -38,7 +38,7 @@ Every substantial topic produces three files in `curriculum/`:
 
 | File | Purpose | Required |
 |---|---|---|
-| `Day_N_Topic.md` | Full technical reference | Yes |
+| `Day_N_Topic.md` | Full technical reference (incl. HARD MODE optional stretch exercises) | Yes |
 | `Day_N_Topic_CheatSheet.md` | Quick recall (definitions, commands, recall questions) | Yes |
 | `Day_N_Topic_Advanced.md` | Optional: advanced content + explore-it-yourself guide | Optional |
 
@@ -49,7 +49,9 @@ Progress is measured by demonstrated capability — running code, passing checks
 See [notes/curriculum_state.md](notes/curriculum_state.md) for the live state.
 
 - Stage: 0 — Foundations
-- Completed: Day 1 (Python setup, variables, I/O, terminal, debugging), Day 2 (types, arithmetic, strings)
+- Completed: Days 1–5 (setup → types/strings → conditionals → loops → functions), Math Day 1 (algebra), Review Day 1
+- Current objective: Day 6 — Lists (creation, operations, iteration, mutability)
+- Threads active: Math (parallel), weekly Communication artifact, Review cycle (every 5 lessons)
 - Current objective: Day 3 (conditionals & boolean logic)
 
 ## Full Subject Map

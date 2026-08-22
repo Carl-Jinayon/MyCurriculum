@@ -180,6 +180,15 @@ Hours are estimates, not deadlines. Ordering is dependency-driven.
 - **Three files per topic**: Full lesson reference; Cheat Sheet (short recall);
   Advanced file (strictly optional: advanced content, explore-it-yourself experiments,
   where the topic leads).
+- **Hard Mode**: every lesson includes 3–4 genuinely difficult stretch exercises —
+  strictly optional, attempted only after core verification, solvable with only the
+  knowledge taught so far. AI-free by default. Desirable difficulty, sequenced behind
+  prerequisites.
+- **Review-day cycle**: after every 5 lessons — cumulative AI-free review, re-test of all
+  mistake-log entries (spaced recall), documented progress record.
+- **Parallel threads**: mathematics (~30–40 min/day, just-in-time), weekly English
+  communication artifact, domain journal for enjoyment discovery, portfolio sync at
+  meaningful checkpoints.
 - **Exercises + projects**: daily practice in exercise folders; portfolio projects that
   progress from tools → apps → full-stack → production-like → AI applications → ML →
   flagship project. Projects must demonstrate engineering judgment, testing, documentation,

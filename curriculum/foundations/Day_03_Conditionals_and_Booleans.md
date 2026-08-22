@@ -154,6 +154,20 @@ This is the beginning of the security thread: **never trust user input**. It wil
 4. `login_sim.py` — ask for username and password; if username == "admin" and password == "secret", print "Access granted.", else "Access denied." (Do NOT put real passwords in code — this is a simulation.)
 5. `validator.py` — ask for input; if it is a digit, print its square; else print a warning. (From the lesson; then make it also handle negative numbers: e.g. strip a leading `-` before checking.)
 
+## HARD MODE — Stretch Exercises (STRICTLY OPTIONAL)
+Attempt ONLY after the core exercises are verified. Solvable with only Days 1–3 knowledge
+(conditionals, boolean logic, validation). No loops yet — that is Day 4.
+
+1. `leap_year.py` — ask for a year; print leap year or not. Rules: divisible by 4 is leap,
+   EXCEPT centuries must be divisible by 400. Test: 1900 (not), 2000 (leap), 2024 (leap),
+   2023 (not). This is a legendary edge-case exercise — get all four right.
+2. `triangle.py` — ask for three side lengths; first check they can form a valid triangle
+   (sum of any two > third), then classify: equilateral, isosceles, or scalene. Handle
+   non-numeric input too.
+3. `rps_logic.py` — ask two players for "rock", "paper", or "scissors"; print the winner
+   using ONLY nested conditionals (no lists, no dicts). All 9 combinations must be correct
+   including ties.
+
 ## Build
 `grade.py` done well is today's build: correct ordering, handles edge cases (0, 100, exactly 90). Tomorrow, loops will let you turn it into a program that grades until the user quits.
 

@@ -173,6 +173,18 @@ Converting text that is not a number raises a `ValueError`. The error message te
 
 5. `type_check.py` — print `type()` of: `42`, `4.2`, `"42"`, `True`, `"True"`. Before running, write what you expect for each.
 
+## HARD MODE — Stretch Exercises (STRICTLY OPTIONAL)
+Attempt ONLY after the core exercises are verified. Solvable with only Days 1–2 knowledge
+(arithmetic, //, %, **, strings, conversions, f-strings). No conditionals yet — that is Day 3.
+
+1. `time_split.py` — ask for a total number of seconds; convert to hours, minutes, seconds
+   using ONLY `//` and `%` (no if-statements). Verify with 3671 → 1h 1m 11s.
+2. `digits.py` — ask for a 4-digit number; extract and print each digit using ONLY `//`
+   and `%` (no string conversion). Then print the digit sum.
+3. `last_change.py` — a store gives change in coins of 10, 5, and 1 peso. Ask for an amount;
+   compute the minimum coins needed using only integer division and modulo, printing each
+   coin count. Verify: 48 → 4×10, 1×5, 3×1.
+
 ## Build
 Today's build is `basic_calc.py` done well: clean f-string output, correct conversions, handles decimal numbers. Tomorrow's lesson (conditionals) will let you make this calculator handle division by zero gracefully.
 

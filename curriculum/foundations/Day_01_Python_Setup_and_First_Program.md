@@ -205,6 +205,20 @@ Read it like this:
 
 4. **Break it deliberately**: Write `hello.py` with a typo (e.g. `pritn("hi")`). Run it. Read the error out loud: what type is it? What line? Then fix it. This teaches you that errors are diagnosable.
 
+## HARD MODE — Stretch Exercises (STRICTLY OPTIONAL)
+Attempt ONLY after the core exercises are verified. Solvable with only Day 1 knowledge
+(print, input, variables, strings, errors). Failure is fine — struggle, debug, retry.
+
+1. `receipt.py` — three items with prices stored in variables. Print a formatted receipt
+   using ONLY `print` with `sep` and `end` (no f-strings yet): aligned columns, a total
+   line, and a "change from 500 pesos" line. Exact spacing matters — measure your output.
+2. `madlibs.py` — ask for a name, place, number, and verb; print a story where they fit
+   grammatically in every slot. Run it 3 times with different inputs — every sentence must
+   still read correctly.
+3. `ascii_tag.py` — print your name inside a box drawn with `=`, `|`, and spaces. The box
+   must look correct for a 10-letter name AND a 3-letter name (compute the padding, don't
+   hardcode it).
+
 ## Build
 There is no separate project today. The exercises ARE the build. From tomorrow, exercises become slightly bigger.
 

@@ -64,14 +64,14 @@ Stage 7 Open-ended specialization.
 Hours are estimates, not deadlines. Progression is dependency-driven and adaptive.
 
 ## Where we are NOW (verify with notes/curriculum_state.md)
-- Stage 0, Day 3 in progress: conditionals, comparisons, boolean logic, input validation — lesson files created, exercises assigned (classifier.py, even_odd_v2.py, grade.py, login_sim.py, validator.py + FizzBuzz mastery check)
-- Day 1 VERIFIED (greet/profile/predict run, outputs correct)
-- Day 2 VERIFIED (all 5 exercises + print_square.py run, outputs correct; learner asked a strong reasoning question — even/odd via list indexing preview)
-- Day 3 exercises NOT yet verified — learner reports outputs before advancing
-- Next after Day 3 verified: Day 4 loops (while, for, range), then functions, lists
-- Math thread: algebra from scratch (~30 min/day), timed to connect with Python functions later
-- Tooling thread: terminal basics woven in; Git in a later week
-- AI thread: teaching Level 1 discipline (try first, hints not answers, paste errors, never claim unwritten code)
+- Stage 0, Day 6 IN PROGRESS: lists (creation, operations, iteration, mutability) — lesson files complete, exercises being written in exercises/Foundations/day_06/
+- VERIFIED: Day 1, Day 2, Day 3, Day 4, Day 5 (all foundations through functions)
+- Review Day 1 COMPLETE (cumulative AI-free checkpoint; see exercises/Review/review_day_01/)
+- Math thread: Math_01 algebra VERIFIED (exercises/Math/math_01/); next Math_02 functions
+- Communication thread: Week 01 artifact DONE (notes/communication/Week_01.txt); weekly cadence
+- Tooling: Git active (repo pushed to Carl-Jinayon/MyCurriculum); portfolio site live (see Portfolio sync)
+- Next after Day 6 verified: Day 7 (tuples/sets/dicts planned) + Math_02 functions
+- Exercise directory layout: exercises/Foundations/day_N/, exercises/Math/math_N/, exercises/Review/review_day_N/
 - IMPORTANT: keep this section updated whenever curriculum_state.md changes
 
 ## Mistake log (REQUIRED DISCIPLINE)

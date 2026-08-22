@@ -169,6 +169,21 @@ The inner loop runs to completion for each outer iteration.
 5. `pattern_printer.py` — nested loops: print a right triangle of asterisks, height N (ask for N)
 6. `validation_retry.py` — ask for an integer between 1 and 100; loop until valid; print the valid number
 
+## HARD MODE — Stretch Exercises (STRICTLY OPTIONAL)
+Attempt ONLY after the core exercises are verified. Solvable with only Days 1–4 knowledge
+(loops, conditionals, arithmetic). No functions yet — that is Day 5.
+
+1. `fizzbuzz_100.py` — print FizzBuzz for ALL numbers 1–100 in one loop. Then modify: skip
+   numbers containing the digit 7 (check with % and // — no string conversion).
+2. `reverse_number.py` — ask for an integer; print its digits reversed using ONLY a while
+   loop with `% 10` and `// 10` (no string conversion). Verify: 1234 → 4321.
+3. `digit_sum.py` — ask for an integer; compute the sum of its digits using the same
+   `% 10` / `// 10` technique. Then: repeat digit-summing until a single digit remains
+   (e.g., 9875 → 29 → 11 → 2). Print each step.
+4. `prime_scan.py` — ask for N; print all primes from 2 to N using nested loops (for each
+   candidate, test divisibility up to the candidate itself — efficiency comes later).
+   Verify against: 2, 3, 5, 7, 11, 13 below 15.
+
 ## Build
 `guess_game.py` done well is today's build: uses `random.randint`, clean retry loop, tracks attempt count, handles invalid input gracefully (non-integers). Tomorrow, functions will let you turn it into a reusable component.
 
