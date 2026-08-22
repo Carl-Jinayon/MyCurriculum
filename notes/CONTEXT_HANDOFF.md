@@ -41,7 +41,10 @@ GOAL: Become an exceptionally capable and globally employable CS student before 
 - curriculum/foundations/      — lesson full references (Day_N_Topic.md)
 - curriculum/mathematics/      — math lessons
 - curriculum/computer_science/, software_engineering/, ai_engineering/, machine_learning/ — later stages
-- exercises/day_N/             — daily practice code
+- exercises/
+    - Foundations/             — programming exercises (day_N/)
+    - Math/                    — math exercises (math_N/)
+    - Review/                  — review day exercises (review_day_N/)
 - projects/                    — portfolio projects
 - notes/concepts/              — concept notes
 - notes/mistakes/              — mistake log (mental-model errors only, not typos)

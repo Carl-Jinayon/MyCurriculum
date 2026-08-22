@@ -1,0 +1,9 @@
+Evaluate 3y - 5 for y = 3, y = 0, y = 10.
+
+Prediction:
+for y = 3: 4
+for y = 0: -5
+for y = 10: 25
+
+Answers:
+All from the prediction are correct

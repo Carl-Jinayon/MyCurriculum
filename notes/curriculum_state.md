@@ -11,20 +11,21 @@ Updated: 2026-08-17
 - Stage 0 — Foundations (in progress)
 
 ## Current Learning Objective
-- Day 5: functions (parameters, return, scope) — exercises in progress, not yet verified
-- Parallel thread: Math Day 1 — algebra (variables, expressions, equations) — lesson files created
+- Day 6: lists (creation, operations, iteration, mutability) — lesson created
+- Parallel thread: Math Day 1 — algebra (variables, expressions, equations) — VERIFIED; next Math_02 functions
 
 ## Active Threads (in addition to main objective)
-- Math thread: Math_01 created (algebra); next Math_02 functions
-- Communication thread: weekly artifact in notes/communication/ (starts this week)
-- Review cycle: next review day after 5 lessons complete (Day 5 will be #5 — programming)
+- Math thread: Math_01 VERIFIED (algebra); next Math_02 functions
+- Communication thread: weekly artifact in notes/communication/ (Week 01 done)
+- Review cycle: Review Day 1 complete; next after Day 10
 - Domain journal: starts at first real project
 
 ## Completed Objectives
 - Day 1 (2026-08-17): Python setup, first program, variables, print/input, terminal basics, debugging loop — VERIFIED
 - Day 2 (2026-08-17): data types, arithmetic, strings, conversions, f-strings — VERIFIED
 - Day 3 (2026-08-19): conditionals, comparisons, boolean logic, input validation — VERIFIED (classifier, even_odd_v2, grade, login_sim, validator, FizzBuzz mastery); login_sim empty-input bug found and fixed by learner
-- Day 4 (2026-08-20): loops — while, for, range, break/continue/else — VERIFIED (countdown, sum_until_zero, multiplication_table, guess_game, pattern_printer, validation_retry, mastery sum 1..N + traces correct); guess_game attempts off-by-one found, learner fixed; design note: invalid inputs counted — learner's choice
+- Day 4 (2026-08-20): loops — while, for, range, break/continue/else — VERIFIED (countdown, sum_until_zero, multiplication_table, guess_game, pattern_printer, validation_retry, mastery sum 1..N + traces correct); guess_game attempts off-by-one found, learner fixed
+- Day 5 (2026-08-21): functions (parameters, return, scope) — VERIFIED (my_functions, string_utils, temperature, validator_fn, calculator_fns)
 
 ## Assessed Levels (2026-08-17)
 - Programming: complete beginner
@@ -46,6 +47,8 @@ Updated: 2026-08-17
 - Writes FizzBuzz from memory
 - Loops: while, for+range, break/continue/loop-else; nested loops; accumulator and validation-retry patterns; traces loops correctly by hand
 - Debugging: found and fixed own bugs (login_sim empty-input, guess_game off-by-one) from feedback
+- Defines functions with parameters, return values; understands local vs global scope; uses default parameters
+- Composes programs from small functions (validator_fn, string_utils, temperature conversions)
 
 ## Weak Areas
 - All foundational areas (by assessment, not failure)

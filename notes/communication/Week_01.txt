@@ -1,0 +1,25 @@
+I am here to explain concepts in pyhton. First of all Python is a programming language in which it has simplier format and easy to understand.
+
+I started at print statements. To something in the terminal, the program must use the print function. This print function uses std out that is 
+talking directly from the kernel of the desktop to be able to print something. Print function has a couple of parameters, such as the text that 
+be printed, the seperator, and the end which serves as the character after the printing of the text is completed. 
+
+Second, are variables. variables are objects that is created inside the program. Those objects has its own id, type, and address. These variables
+are living in the system. For them be called we need to declare a variable name. These variable names are the one's who points to those memory addresses
+for the object to be accessed. An object can have a multiple names that is pointing to itself.
+
+Next is input function. This input function is used for getting an input from the user. When you use input function, it returns a string. 
+This is so useful when you want to get data or information from the user that is needed from the program to execute, run, and exit or terminated.
+This serves as a gateway for the user to communicate to the program. 
+
+Fourth is conditionals. Conditionals are so important when it comes to programming. This conditionals are like directions with its rules. They are 
+like traffic inforcers which guide motorists when to pass by. It redirects the program depending if the condition is met or not. It is like also a 
+security that acts like a gate the prevents risks from the outside to access the block inside the conditionals.
+
+Fifth is loop. Loops are convenient, this act like a teleporter or a time machine which enables the program to jump from whichever depends on the 
+condition written in it. There are two loops 'for' loop and 'while' loop. For loops are usually used when there are certain known number of loops are needed.
+While in the while loop it usually used when you want to depend on a condition for it to run.
+
+Lastly, functions. Functions are like tools that you can use anytime. This tools are used to avoid unnecessary duplications, efforts in the program.
+This also acts as a organizer that each functions has its own functionality and creates a organized code thus resulting for the programmer to read 
+the code easily (for readability).

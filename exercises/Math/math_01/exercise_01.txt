@@ -1,0 +1,9 @@
+Evaluate 2x + 3 for x = 4, x = 10, x = -2. (Predict first, then compute.)
+
+Prediction (2x + 3): 
+for x = 4: = 11
+for x = 10: = 23
+for x = -2: = -1
+
+Answers:
+All from the prediction are correct.
