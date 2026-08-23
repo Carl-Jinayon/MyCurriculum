@@ -1,0 +1,14 @@
+f(x) = x^2 - 4
+
+Value -> Output
+
+-3 -> 5
+-1 -> -3
+0 -> -4
+1 -> -3
+3 -> 5
+
+The symmetry are balanced.
+They are symmetrical because the value's sign doesn't matter
+what matter is the actual value. Because the sign will always be positive
+because it is multiplied to itself by 2 which is the value's squared.

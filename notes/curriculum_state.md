@@ -11,8 +11,7 @@ Updated: 2026-08-22
 - Stage 0 — Foundations (in progress)
 
 ## Current Learning Objective
-- Learner doing Math Day 2 FIRST (functions f(x)), then Day 7 (tuples/sets/dicts) — BOTH lesson sets created and ready
-- Math_02 exercises: exercises/Math/math_02/ | Day 7 exercises: exercises/Foundations/day_07/
+- Math Day 2 CLOSED (verified); next: learner does Day 7 exercises (tuples/sets/dicts) — lesson files ready
 
 ## Active Threads (in addition to main objective)
 - Math thread: Math_01 VERIFIED (algebra); next Math_02 functions
@@ -30,6 +29,7 @@ Updated: 2026-08-22
 - Review Day 1 (2026-08-22): cumulative Days 1–5, AI-free — VERIFIED (6/6 exercises; factorial even/odd fix; README documented)
 - Communication Week 01 (2026-08-22): concepts explained in own words — DONE
 - Day 6 (2026-08-22): lists — VERIFIED (basics/slicing, methods incl. reverse, enumerate + accumulator stats, nested comprehension grid, aliasing demo, filter via comprehension AND loop); coaching note: avoid shadowing built-in names (max/min → maximum/minimum, fixed)
+- Math Day 2 (2026-08-23): functions f(x) — VERIFIED (evaluation incl. negatives, two-machine comparison, symmetry insight, reversing machines, tricycle word problem, python bridge with self-checking loop search); precision notes: line-to-line consistency, one letter per definition
 
 ## Assessed Levels (2026-08-17)
 - Programming: complete beginner
@@ -54,6 +54,7 @@ Updated: 2026-08-22
 - Defines functions with parameters, return values; understands local vs global scope; uses default parameters
 - Composes programs from small functions (validator_fn, string_utils, temperature conversions)
 - Lists: indexing/slicing/negative indices, core methods (append/extend/pop/remove/index/count/sort/reverse/copy), enumerate/zip awareness, nested list grids via comprehension, aliasing vs copy understood and demonstrated, filtering via both comprehension and loop
+- Math: evaluates expressions with negatives, simplifies like terms, solves one-step equations WITH checking, function notation f(x) — evaluate AND reverse, connects math functions to Python def
 
 ## Weak Areas
 - All foundational areas (by assessment, not failure)
