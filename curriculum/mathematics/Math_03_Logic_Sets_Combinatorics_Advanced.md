@@ -74,6 +74,13 @@ Count: valid parentheses strings, binary trees, polygon triangulations, monotoni
 D(n) = n! Σ_{k=0}^{n} (-1)^k / k! ≈ n! / e
 Derangements approach n!/e as n → ∞. The probability a random permutation is a derangement ≈ 1/e ≈ 36.8%.
 
+### The Pigeonhole Principle — the counting world's sharpest knife
+If n+1 items go into n boxes, some box holds ≥ 2 items. Trivial to state, astonishing in application:
+- Among 13 people, two share a birth-month (13 people, 12 months)
+- Among any 5 numbers, two have the same last digit
+- In any group of 367 people, two share a full birthday
+The skill: recognizing WHICH things are pigeons and which are holes. Hash collisions (Day 7 Advanced) are pigeonhole in action — infinite possible keys, finite drawers.
+
 ### Probability Foundations (essential for ML)
 
 #### Probability Space

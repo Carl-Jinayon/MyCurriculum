@@ -77,6 +77,39 @@ bool((0,))    # True       bool({"a":1})  # True
 ```
 Empty container = falsy. Powers the idiom: `if not results: print("none found")`.
 
+### Nested-data manipulation — a real walkthrough
+Real data is nested. Walk this until it feels ordinary:
+```python
+school = {
+    "classA": {"Carl":    {"math": 92, "sci": 88},
+               "Maria":   {"math": 95, "sci": 91}},
+    "classB": {"Juan":    {"math": 78, "sci": 85}},
+}
+
+# student average
+grades = school["classA"]["Carl"]
+avg = sum(grades.values()) / len(grades)
+
+# subject averages across ALL students (accumulator over nested loop)
+totals, counts = {}, {}
+for cls in school.values():
+    for student, subj in cls.items():
+        for name, score in subj.items():
+            totals[name] = totals.get(name, 0) + score
+            counts[name] = counts.get(name, 0) + 1
+averages = {s: totals[s] / counts[s] for s in totals}
+```
+Three rules make any nesting manageable: (1) one loop level per nesting depth, (2) `.get(key, default)` at every uncertain layer, (3) build results in fresh dicts rather than mutating mid-iteration.
+
+### JSON tie-in preview (Stage 3–4)
+This exact shape — dicts containing lists containing dicts — IS JSON, the interchange format of web APIs and LLM tool-calls:
+```python
+import json
+text = json.dumps(school, indent=2)     # structure → text (send over network)
+back = json.loads(text)                  # text → structure
+```
+Master nested dicts today; APIs become trivial later.
+
 ## 2. Explore-It-Yourself Guide
 
 Predict, run, reflect:

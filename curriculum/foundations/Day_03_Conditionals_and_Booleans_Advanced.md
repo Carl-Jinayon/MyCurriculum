@@ -57,6 +57,28 @@ if condition:
 ```
 Later used in loops and functions as a placeholder.
 
+### Chained comparisons — math notation in code
+```python
+if 0 < x <= 100:          # both comparisons checked; x evaluated once
+if a == b == c:           # all three equal
+```
+Equivalent to `0 < x and x <= 100` — but shorter and reads like algebra. Any chain `a op1 b op2 c` means `(a op1 b) and (b op2 c)`.
+
+### startswith / endswith — prefix & suffix questions
+```python
+filename.startswith("log_")     # True/False
+filename.endswith(".txt")       # tuple form checks many at once:
+filename.endswith((".txt", ".md"))
+```
+Cleaner than slicing when you care about the edges. (You already used startswith in your Day 3 classifier — self-taught, now formalized.)
+
+### any() / all() — quantifiers as functions (preview)
+```python
+any(n > 0 for n in nums)    # ∃ — "at least one positive?"
+all(n > 0 for n in nums)    # ∀ — "all positive?"
+```
+These ARE Math Day 3's existential/universal quantifiers (∃/∀) as built-ins. Full appreciation arrives with comprehensions (Day 6); park the names.
+
 ## 2. Explore-It-Yourself Guide
 
 Predict first, then run:

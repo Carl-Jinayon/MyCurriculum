@@ -114,6 +114,29 @@ d.popleft()       # O(1) — list.pop(0) is O(n)!
 ```
 Use `deque` for queues, BFS, sliding windows.
 
+### Unpacking with * — gather and scatter
+```python
+first, *rest = [1, 2, 3, 4]      # first=1, rest=[2,3,4]
+*a, last = [1, 2, 3, 4]          # a=[1,2,3], last=4
+print(*names, sep=", ")           # scatter list into separate arguments
+combined = [*a, *b]               # merge lists without extend
+```
+The `*` flips between gathering (into list) and scattering (out of list).
+
+### The memory model — what a list really is
+A Python variable is a **name tag pointing at an object**. A list is an object holding a row of pointers:
+```
+a ──▶ [ ptr ]──▶ 1        b = a copies the ARROW, not the boxes
+       [ ptr ]──▶ 2
+       [ ptr ]──▶ 3
+b = a[:] builds NEW boxes and copies the pointers one level deep.
+copy.deepcopy() recursively rebuilds everything.
+```
+This one diagram explains: aliasing, shallow vs deep copy, why `[[0]*3]*3` shares rows, and why functions can mutate the lists you pass them. It is THE mental model for Days 6–8 and beyond.
+
+### sorted() with keys — pointer ahead
+`sorted(data, key=len)` sorts by any measurement (Day 7 Advanced uses `key=lambda kv: kv[1]` on dicts). Park the syntax; the idea is "sort by a computed value, not the item itself."
+
 ## 2. Explore-It-Yourself Guide
 
 Predict, run, reflect:

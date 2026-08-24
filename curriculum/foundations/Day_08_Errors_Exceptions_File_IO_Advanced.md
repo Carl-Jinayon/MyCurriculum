@@ -333,6 +333,19 @@ logger = logging.getLogger(__name__)
 logger.info("User logged in", extra={"user_id": 123})
 ```
 
+### Pathlib glob recipes
+```python
+from pathlib import Path
+
+data = Path("data")
+data.glob("*.txt")              # .txt files directly inside
+data.rglob("*.py")              # .py anywhere BELOW (recursive)
+sorted(data.glob("*.log"), key=lambda p: p.stat().st_size)   # by size
+[p for p in data.iterdir() if p.is_file()]                   # files only
+{p.stem: p.read_text() for p in data.glob("*.md")}           # folder → dict
+```
+`glob` + dict comprehension = "load a directory of files" in two lines — a daily-driver pattern for logs, configs, and datasets.
+
 ## 2. Explore-It-Yourself Guide
 
 1. **Crash dump**: deliberately raise an exception, catch it, print `traceback.format_exc()` — see the full stack.

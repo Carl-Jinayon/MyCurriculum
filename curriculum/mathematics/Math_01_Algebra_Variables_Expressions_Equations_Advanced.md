@@ -44,6 +44,19 @@ Why constant first? Because it is the outermost operation — you peel the equat
 
 Note: the equation's "=" is Python's `==` — you already met this in Day 3. The math "solve" operation is the thing code does when it computes.
 
+### Multiplying through like terms
+Coefficients multiply too: `2 · 3x = 6x`; `(2x)(3) = 6x`. But `(2x)(3x) = 6x²` — the x's multiply INTO a new kind. Distinguish: number×number stays constant; one x stays x; x times x changes kind entirely.
+
+### Inequalities — equations with direction
+`x + 5 > 12` solves exactly like an equation EXCEPT one rule: **multiplying or dividing by a negative flips the sign**.
+```
+-2x < 10  →  divide by -2 →  x > -5     (flip!)
+```
+Why flip? Negation mirrors the number line — "less than 10" becomes "greater than" when everything reflects. Programming tie: `while not 0 < x <= 100` from your Day 4 validation is inequality logic in code.
+
+### Choosing the variable in word problems
+The unknown you NAME should be the thing the question ASKS for (when possible). "How much did I start with?" → x = starting amount directly; avoid solving for something sideways then converting. Good variable choice halves the work — requirements analysis again.
+
 ## 2. Explore-It-Yourself Guide
 
 1. In Python: `x = 5; print(2 * x + 3 == 11)` — what boolean do you get? Change x to 4 — now what? You just recreated "checking a solution" in code.
