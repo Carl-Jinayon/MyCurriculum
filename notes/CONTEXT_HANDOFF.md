@@ -66,7 +66,7 @@ Hours are estimates, not deadlines. Progression is dependency-driven and adaptiv
 
 ## Where we are NOW (verify with notes/curriculum_state.md)
 - MASTERY WEEK (Stage 0 capstone) — schedule in notes/MASTERY_WEEK.md
-- VERIFIED: Days 1–7, Math 01–03, Review Day 1; Day 8 lessons READY (exercises partially done — exceptions_02 pending OOP understanding)
+- VERIFIED: Day 7 is the latest completed programming day (Day 1 through Day 7 all verified); Math Day 1–3 verified; Review Day 1 done; Day 8 lessons READY (exercises partially done — exceptions_02 pending OOP understanding)
 - New lessons created: Day 9 OOP Primer, Day 10 Learning How to Learn (both 3-file sets)
 - Project 1: Expense Tracker — SPEC at projects/project_01_expense_tracker/SPEC.md
 - Missed-lessons resolution: OOP→Day 9 · LHTL→Day 10 · Git formal→Stage 1 Day 1 (see prerequisites_ledger.md)
