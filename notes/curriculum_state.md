@@ -20,9 +20,8 @@ Updated: 2026-08-24
 - Stage 0 — Foundations (in progress)
 
 ## Current Learning Objective
-- Math Day 3 exercises (logic/sets/combinatorics) — lessons READY in curriculum/mathematics/Math_03_*
-- Then: Day 8 (errors/exceptions/file I/O) — lessons READY — final day of Stage 0
-- Day 7 CLOSED (verified all 6 exercises: tuples, sets, dicts)
+- Math Day 3 CLOSED (2026-08-24) — logic truth tables, De Morgan verification, set ops + inclusion-exclusion, permutations/combinations, password combinatorics, bridge.py CLI app (self-directed: higher-order functions, try/except, lambdas)
+- Next: Day 8 exercises (errors/exceptions/file I/O) — FINAL day of Stage 0; then Stage 0 complete → Stage 1 begins
 
 ## Active Threads (in addition to main objective)
 - Math thread: Math_01 + Math_02 VERIFIED; Math_03 lessons READY — exercises next

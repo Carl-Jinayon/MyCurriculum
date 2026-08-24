@@ -38,6 +38,14 @@
 
 ## Log (most recent first)
 
+### Entry 4 — Inclusion-exclusion sign alternation (2026-08-24, Math Day 3 counting_02)
+1. **What the learner believed:** subtracting ALL "missing-type" counts (singles AND pairs) from total gives passwords with at least one of each type.
+2. **What is actually true:** the pattern ALTERNATES: total − singles + pairs − triple. Pairwise overlaps were already removed twice inside the single terms, so they must be ADDED back.
+3. **Why the reasoning failed:** treated inclusion-exclusion as "subtract everything bad" instead of tracking how many times each region was counted.
+4. **Correct mental model:** count each region exactly once. Overlap regions get counted multiple times in the singles — so alternate corrections restore them.
+5. **Example:** valid(8-char, ≥1 of each type) = 62⁸ − (52⁸+36⁸+36⁸) + (26⁸+26⁸+10⁸) − 0 = 159,655,911,367,680 — independently confirmed.
+6. **How to recognize next time:** any multi-set correction → ask "how many times did I count this region?" Draw the Venn regions if unsure.
+
 ### Entry 3 — Return value of mutating methods (2026-08-22, Day 6 mastery check)
 1. **What the learner believed/wrote:** "`list.sort()` returns the original list but modified."
 2. **What is actually true:** `.sort()` returns `None`; it sorts the list in place. `sorted(list)` returns a NEW sorted list.
