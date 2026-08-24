@@ -1,0 +1,26 @@
+# MASTERY WEEK — Stage 0 Capstone
+
+> Trigger: Days 1–7 + Math 01–03 verified; Day 8 exercises in progress. Learner requested consolidation ("mastery week") + OOP gap identified (2026-08-24).
+> Goal: close Stage 0 with demonstrated integration, not accumulated lessons.
+
+## Schedule
+
+| Day | Focus | Deliverable |
+|---|---|---|
+| M1 | **Day 9: OOP Primer** (classes, __init__, self, inheritance, custom exceptions) | Day 9 exercises verified; exceptions_02.py rewritten with full understanding |
+| M2 | **Day 8 core completion** (file I/O, JSON/CSV, context managers) | Day 8 exercises verified incl. log_analyzer build |
+| M3 | **Day 10: Learning How to Learn** + Hard Mode backlog sprint begins (AI-free) | study_protocol.py tool; HM entries from any Days 1–7 |
+| M4–M5 | **Project 1: Expense Tracker** (see projects/project_01_expense_tracker/SPEC.md) — AI-free except hints; Git commits per feature | Working CLI tool + README + commit history |
+| M6 | **Review Day 2** — cumulative Days 1–8 + Math 01–03, AI-free; re-test all mistake-log entries (currently 4) | notes/reviews/ entry |
+| M7 | **Stage-boundary Progress Review** (review_template.md) + domain journal entry #1 + portfolio site skills update | Formal review record |
+
+## Completion criteria for Stage 0
+- All above deliverables verified
+- Progress review verdict: Stage 0 objectives demonstrated at Competent-or-better across the board
+- Then: Stage 1 opens with **Git deep-dive day** (branches/merging/remotes — the formal lesson), then DSA.
+
+## Missed-lessons resolution log
+- OOP primer debt → Day 9 (this week)
+- Learning How to Learn explicit lesson → Day 10 (was implicit since Day 1)
+- Git formal lesson → scheduled as Stage 1 Day 1
+- Docstrings/type-hints/None/chained comparisons/split/padding/imports → resolved via Batch 1–2 Advanced expansion + main anchors (see prerequisites_ledger.md)

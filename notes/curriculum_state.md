@@ -20,8 +20,10 @@ Updated: 2026-08-24
 - Stage 0 — Foundations (in progress)
 
 ## Current Learning Objective
-- Math Day 3 CLOSED (2026-08-24) — logic truth tables, De Morgan verification, set ops + inclusion-exclusion, permutations/combinations, password combinatorics, bridge.py CLI app (self-directed: higher-order functions, try/except, lambdas)
-- Next: Day 8 exercises (errors/exceptions/file I/O) — FINAL day of Stage 0; then Stage 0 complete → Stage 1 begins
+- MASTERY WEEK (Stage 0 capstone) — see notes/MASTERY_WEEK.md
+- M1: Day 9 OOP Primer (lessons ready) → redo exceptions_02 with understanding
+- M2: Day 8 core completion · M3: Day 10 LHTL + Hard Mode backlog (AI-free) · M4–M5: Project 1 Expense Tracker (SPEC ready) · M6: Review Day 2 · M7: Stage-boundary Progress Review
+- Missed lessons resolved: OOP→Day 9, LHTL→Day 10, Git formal→Stage 1 Day 1
 
 ## Active Threads (in addition to main objective)
 - Math thread: Math_01 + Math_02 VERIFIED; Math_03 lessons READY — exercises next

@@ -65,13 +65,12 @@ Stage 7 Open-ended specialization.
 Hours are estimates, not deadlines. Progression is dependency-driven and adaptive.
 
 ## Where we are NOW (verify with notes/curriculum_state.md)
-- Stage 0, near completion of programming fundamentals: Day 7 VERIFIED (tuples/sets/dicts); Day 8 (errors/exceptions/file I/O) lessons READY — exercises not yet started
-- VERIFIED: Day 1–7 complete (setup → types → conditionals → loops → functions → lists → containers)
-- Review Day 1 COMPLETE (cumulative AI-free checkpoint; see exercises/Review/review_day_01/)
-- Math thread: Math_01 algebra VERIFIED, Math_02 functions VERIFIED; Math_03 (logic/sets/combinatorics) lessons READY — exercises next (exercises/Math/math_03/)
-- Communication thread: Week 01 artifact DONE (notes/communication/Week_01.txt); Week 02 due
-- Tooling: Git active (repo pushed to Carl-Jinayon/MyCurriculum); portfolio site live (see Portfolio sync)
-- Next: Math Day 3 exercises → Day 8 exercises → Stage 0 COMPLETE → Stage 1 begins
+- MASTERY WEEK (Stage 0 capstone) — schedule in notes/MASTERY_WEEK.md
+- VERIFIED: Days 1–7, Math 01–03, Review Day 1; Day 8 lessons READY (exercises partially done — exceptions_02 pending OOP understanding)
+- New lessons created: Day 9 OOP Primer, Day 10 Learning How to Learn (both 3-file sets)
+- Project 1: Expense Tracker — SPEC at projects/project_01_expense_tracker/SPEC.md
+- Missed-lessons resolution: OOP→Day 9 · LHTL→Day 10 · Git formal→Stage 1 Day 1 (see prerequisites_ledger.md)
+- After mastery week: Stage-boundary Progress Review → Stage 1 opens with Git deep-dive day, then DSA
 - Exercise directory layout: exercises/Foundations/day_N/, exercises/Math/math_N/, exercises/Review/review_day_N/
 - IMPORTANT: keep this section updated whenever curriculum_state.md changes
 
