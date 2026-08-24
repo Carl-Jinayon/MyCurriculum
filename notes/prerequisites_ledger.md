@@ -27,6 +27,12 @@
 - abs() (math_03 sets) → note added in Math Day 3 feedback
 - chained comparisons (day_04 validation_retry) → Day 3 main anchor added
 
+## Scheduled future topics (anti-forgetting)
+- REGEX → primer added to Day 8 ADV (§ regex primer); formal lesson when data-cleaning pain arrives (Stage 1, after first real parsing work). NOT required by any core exercise yet.
+- OOP full design day → Stage 1 (Day 9 was the primer: use-classes-without-fear level).
+- GIT formal day → Stage 1 Day 1.
+- os module fragments (environ, subprocess) → Stage 2–3 deployment/systems work; pathlib is primary before then.
+
 ## Rule for future lessons
 Before writing a core exercise: list its required constructs; each must appear in a PRIOR
 main lesson OR get an explicit pointer + ADV coverage. Append the row here.

@@ -333,6 +333,51 @@ logger = logging.getLogger(__name__)
 logger.info("User logged in", extra={"user_id": 123})
 ```
 
+### REGEX PRIMER — pattern matching for text (comprehensive intro)
+Regex (`import re`) is a pattern language for finding/extracting text too messy for `split()` and `startswith()`. Logs, dates, emails, IDs — this is its home turf. Deferred until now ON PURPOSE: you needed to feel string-method limits first (see Math-Day-3-style sequencing).
+
+**Raw strings first:** always write patterns as `r"..."` so backslashes survive intact.
+
+**Core functions:**
+```python
+import re
+
+re.search(r"\d+", text)        # first match object (or None)
+re.findall(r"\d+", text)       # ALL matches as a list of strings
+re.sub(r"\d+", "#", text)      # replace matches
+re.match(r"ERROR", line)       # match at START of string only
+```
+
+**The building blocks:**
+| Pattern | Matches |
+|---|---|
+| `\d` `\w` `\s` | digit / word-char / whitespace |
+| `.` | any single char |
+| `[abc]` `[^abc]` | set / NOT-in-set |
+| `*` `+` `?` | 0+, 1+, 0-or-1 repetitions |
+| `{3}` `{2,4}` | exact / range repetitions |
+| `^` `$` | start / end of string |
+| `(…)` | group — extractable |
+
+**Worked example — parsing your own log format:**
+```python
+line = "2026-08-24 ERROR disk almost full"
+m = re.search(r"(\d{4}-\d{2}-\d{2}) (\w+) (.+)", line)
+if m:
+    date, level, message = m.groups()
+# ('2026-08-24', 'ERROR', 'disk almost full')
+```
+Compare with your `split(":", 1)` version in log_analyzer.py: split works for simple formats; regex survives format changes (extra fields, reordered parts).
+
+**Validation use:**
+```python
+re.fullmatch(r"\d{4}-\d{2}-\d{2}", user_date)   # strict YYYY-MM-DD check
+```
+
+**When NOT to use regex:** if `split()`, `in`, or `startswith()` solve it — use those. Classic warning: "Some people, when confronted with a problem, think 'I know, I'll use regular expressions.' Now they have two problems." Regex you can't read is a liability; comment complex patterns.
+
+**Performance note:** compile once if reusing: `pattern = re.compile(r"\d+")` then `pattern.search(...)`.
+
 ### Pathlib glob recipes
 ```python
 from pathlib import Path
