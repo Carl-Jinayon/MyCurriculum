@@ -1,6 +1,6 @@
 # Curriculum State
 
-Updated: 2026-08-24
+Updated: 2026-08-25
 
 > SESSION CHECKLIST (AI: verify ALL before ending any session)
 > [ ] state file updated (objective, threads, completed, date)
