@@ -1,6 +1,15 @@
 # Curriculum State
 
-Updated: 2026-08-23
+Updated: 2026-08-24
+
+> SESSION CHECKLIST (AI: verify ALL before ending any session)
+> [ ] state file updated (objective, threads, completed, date)
+> [ ] handoff "Where we are NOW" synced
+> [ ] README progress synced
+> [ ] mistake log updated if new mental-model errors
+> [ ] commit reminder given (git status)
+> [ ] next objective stated
+> Full sweep on Review Days and on learner's "system check" command.
 
 ## Learner Profile
 - 20, 3rd-year CS student, Philippines, ~2 years from graduation
@@ -11,11 +20,12 @@ Updated: 2026-08-23
 - Stage 0 — Foundations (in progress)
 
 ## Current Learning Objective
-- Day 7 CLOSED (verified all 6 exercises: tuples, sets, dicts); next: Math Day 3 (logic, sets, combinatorics) then Day 8 (errors/exceptions + file I/O)
-- Math thread: Math Day 3 — logic, sets, combinatorics basics
+- Math Day 3 exercises (logic/sets/combinatorics) — lessons READY in curriculum/mathematics/Math_03_*
+- Then: Day 8 (errors/exceptions/file I/O) — lessons READY — final day of Stage 0
+- Day 7 CLOSED (verified all 6 exercises: tuples, sets, dicts)
 
 ## Active Threads (in addition to main objective)
-- Math thread: Math_01 VERIFIED (algebra); next Math_02 functions
+- Math thread: Math_01 + Math_02 VERIFIED; Math_03 lessons READY — exercises next
 - Communication thread: Week 01 done; Week 02 artifact due
 - Review cycle: Review Day 1 complete; next after Day 10
 - Domain journal: starts at first real project

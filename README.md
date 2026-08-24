@@ -49,10 +49,9 @@ Progress is measured by demonstrated capability — running code, passing checks
 See [notes/curriculum_state.md](notes/curriculum_state.md) for the live state.
 
 - Stage: 0 — Foundations
-- Completed: Days 1–5 (setup → types/strings → conditionals → loops → functions), Math Day 1 (algebra), Review Day 1
-- Current objective: Day 6 — Lists (creation, operations, iteration, mutability)
+- Completed: Days 1–7 (setup → types → conditionals → loops → functions → lists → tuples/sets/dicts), Math Days 1–2 (algebra, functions), Review Day 1
+- Current objective: Math Day 3 exercises (logic/sets/combinatorics), then Day 8 (errors/exceptions/file I/O) — final day of Stage 0
 - Threads active: Math (parallel), weekly Communication artifact, Review cycle (every 5 lessons)
-- Current objective: Day 3 (conditionals & boolean logic)
 
 ## Full Subject Map
 

@@ -27,6 +27,8 @@ len("abc")     # 3
 s.lower() / s.upper()
 s[0]           # first char; s[-1] last char
 f"value is {x}"  # f-string: inserts variable, auto-converts to text
+f"{x:>10}"     # right-align, width 10   |{x:<10}| left  |{x:^10}| center
+f"{n:.2f}"     # 2 decimal places; combine: {n:>8.2f}
 ```
 
 ## Conversions

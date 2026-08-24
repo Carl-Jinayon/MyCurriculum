@@ -119,6 +119,22 @@ print(f"My name is {name} and I am {age} years old.")
 
 The `f` before the string means "format": `{name}` gets replaced with the variable's value. f-strings automatically convert numbers to text — no type error. Use these from now on.
 
+### f-string width and alignment (added later, when needed)
+Inside the braces you can add `[fill][align][width]` to control column layout:
+
+```python
+name = "Carl"
+print(f"|{name:>10}|")    # |      Carl|   > right-align in width 10
+print(f"|{name:<10}|")    # |Carl      |   < left-align
+print(f"|{name:^10}|")    # |   Carl   |   ^ center
+print(f"|{name:*^10}|")   # |***Carl***|   * = fill character
+print(f"|{price:>8.2f}|") # numbers: width + decimals combined
+```
+
+- Width is a MINIMUM — longer content overflows, never truncates
+- Booleans: convert with `!s` first for clean columns: `{p!s:<6}`
+- Use case: aligned tables (truth tables, receipts, logs)
+
 ## Type Conversion
 
 | Function | Converts to | Example |

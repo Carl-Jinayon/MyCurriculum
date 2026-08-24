@@ -1,5 +1,10 @@
 # Math Day 3 Cheat Sheet — Logic, Sets, Combinatorics
 
+> MEMORIZATION TIERS — do NOT brute-memorize this whole sheet.
+> **TIER 1 (AUTOMATIC):** 5 truth tables · De Morgan ×2 · p→q≡¬p∨q · |A∪B|=|A|+|B|−|A∩B| · multiplication & addition principles · n! · P(n,r) & C(n,r) + when order matters
+> **TIER 2 (DERIVE on demand):** distribution, absorption, idempotent, complement laws, contrapositive, symmetry C(n,r)=C(n,n−r) — verify with a truth table or tiny example instead of recalling
+> **TIER 3 (LOOKUP):** power-set size, three-set inclusion-exclusion details, anything in the Advanced file
+
 ## Propositional Logic
 
 ### Truth Tables
