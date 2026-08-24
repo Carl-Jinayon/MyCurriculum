@@ -40,6 +40,51 @@ print(shopping)             # ['milk'] — changed outside!
 
 This is intentional and powerful — and a classic source of bugs. Full treatment in Day 6 (lists). Rule for now: if you don't want mutation, pass a copy.
 
+### None — the value that means "nothing came back" (formal)
+`None` is a real VALUE with its own type — Python's way of saying "absent":
+```python
+print(type(None))       # <class 'NoneType'>
+result = print("hi")    # print RETURNS None!
+print(result)           # None
+```
+
+**The rules:**
+- Every function returns something; no `return` → returns `None` automatically
+- `return` with no value also returns `None`
+- Test for it with `is`, not `==`: `if result is None:` (identity, not equality — one-object guarantee makes `is` exact and idiomatic)
+- Falsy in conditions: `if not result:` treats None like empty/zero
+
+You already USED this contract: Day 8's `divide()` returning None on zero means "no valid answer exists" — callers must check before doing math with it.
+
+### Docstrings — documentation that lives inside code
+A docstring is the FIRST string literal inside a function/module/class:
+```python
+def get_int(prompt, lo, hi):
+    """Keep asking until the user types an integer in [lo, hi].
+
+    Returns the validated int. Re-prompts on anything else.
+    """
+    ...
+```
+- Triple quotes allow multi-line
+- First line: one-sentence summary; blank line; details
+- Conventions: describe the CONTRACT (what it returns, what it raises), not the mechanics
+- Tooling reads them: `help(get_int)` displays your docstring; IDEs show it on hover; AI assistants parse it
+
+Docstrings are the professional habit you asked about earlier — this IS where they live.
+
+### Type hints — optional labels that scale (gentle intro)
+```python
+def square(x: int) -> int:
+    return x * x
+
+def greet(name: str, excited: bool = False) -> str:
+    ...
+```
+- `parameter: type` and `-> type` are LABELS — Python ignores them at runtime
+- Value: editors autocomplete correctly, bugs surface early (with type-checkers), readers understand contracts instantly
+- Start using them on new functions now; they cost seconds and pay forever
+
 ### *args and **kwargs
 ```python
 def total(*numbers):              # collects all positional args into a tuple

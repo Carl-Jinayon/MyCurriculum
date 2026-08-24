@@ -42,6 +42,71 @@ Do not write code depending on this — know it exists, ignore it in practice.
 "5".isdigit()                  # True — check text is a number before converting
 ```
 
+### STRING METHODS — the complete reference (comprehensive)
+Strings are immutable — every method returns a NEW string; the original never changes.
+
+**Cutting & joining:**
+```python
+"Python is fun".split()          # ['Python', 'is', 'fun']   (splits on whitespace)
+"a,b,c".split(",")               # ['a', 'b', 'c']           (any delimiter)
+" ".join(["a", "b", "c"])        # "a b c"                   (glue list back together)
+"-".join(["a", "b"])             # "a-b"
+```
+`split()` + `join()` are a matched pair: parse text in, rebuild text out. Day 7's word counter and Day 8's CSV handling both live on this pair.
+
+**Searching & testing:**
+```python
+s = "hello world"
+s.startswith("he")     # True          s.endswith("ld")    # True
+s.find("world")        # 6  (index; -1 if absent)
+s.index("world")       # 6  (like find, but ValueError if absent)
+"world" in s           # True — membership, usually cleanest
+s.count("l")           # 3
+```
+
+**Cleaning & casing:**
+```python
+"  x  ".strip()        # "x"      strip both ends
+"  x  ".lstrip()       # "x  "    left only
+"  x  ".rstrip()       # "  x"    right only
+"abc".upper(); "ABC".lower()
+"hello world".title()      # "Hello World"
+"Hello".swapcase()         # "hELLO"
+```
+
+**Testing character classes (return booleans):**
+```python
+"123".isdigit()      # True      "abc".isalpha()    # True
+"ab12".isalnum()     # True      "   ".isspace()    # True
+"abc".islower()      # True      "ABC".isupper()    # True
+```
+The `is...` family is your validation toolkit — `isdigit()` guards int conversion (Day 3), `startswith` filters filenames, `isspace` detects blank input.
+
+**Replacing:**
+```python
+"aaa".replace("a", "b")     # "bbb"
+"2026-08-24".replace("-", "/")
+```
+
+**Immutability demonstrated:**
+```python
+s = "hello"
+s.upper()        # "HELLO" — returned, s unchanged!
+print(s)         # "hello"
+s = s.upper()    # rebinding is how you "change" a string
+```
+
+**Escape sequences consolidated:**
+| Sequence | Meaning |
+|---|---|
+| `\n` | newline |
+| `\t` | tab |
+| `\"` `\'` | quote inside same-type quotes |
+| `\\` | literal backslash |
+
+### Membership on strings/lists (the `in` operator everywhere)
+`in` works on ANY sequence: `"ell" in "hello"` → True; `4 in [1,2,3]` → False. One operator, every container.
+
 ### Multiple assignment and swapping
 ```python
 a, b = 1, 2

@@ -54,6 +54,16 @@ The terminal always has a "current directory" (where you are). Key commands:
 ### Suggestion: Run Terminal Commands Yourself
 In OpenCode I can run commands for you, but you must also practice typing them in your own terminal. Muscle memory matters.
 
+### Comments (added later, when you started using them)
+Lines starting with `#` are ignored by Python — they exist for humans:
+
+```python
+# This whole line is a comment
+x = 5    # comments can also follow code
+```
+
+Use them for WHY, not what: `# skip 16-60 to avoid double-count` beats `# subtract`.
+
 ## First Program
 
 Create the file `exercises/day_01/hello.py` with a text editor and type:

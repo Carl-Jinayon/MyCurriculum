@@ -119,6 +119,18 @@ print(f"My name is {name} and I am {age} years old.")
 
 The `f` before the string means "format": `{name}` gets replaced with the variable's value. f-strings automatically convert numbers to text — no type error. Use these from now on.
 
+### split() — string to list (added later, needed by Day 7)
+`"a b c".split()` cuts a string at spaces and returns a LIST of pieces:
+
+```python
+sentence = "Python is fun"
+words = sentence.split()      # ["Python", "is", "fun"]
+csv_line = "Carl,20,Tanza"
+parts = csv_line.split(",")   # ["Carl", "20", "Tanza"] — any delimiter
+```
+
+Full string-methods reference: see Day 2 Advanced §1.
+
 ### f-string width and alignment (added later, when needed)
 Inside the braces you can add `[fill][align][width]` to control column layout:
 

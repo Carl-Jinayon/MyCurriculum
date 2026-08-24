@@ -133,6 +133,16 @@ else:
 
 This is the beginning of the security thread: **never trust user input**. It will follow you through web, databases, AI agents, everything.
 
+### Chained comparisons (added later, used in your own code)
+Python allows math-style chaining — both sides checked automatically:
+
+```python
+if 0 < number <= 100:      # same as: 0 < number and number <= 100
+    print("In range")
+```
+
+Read it left to right like a normal inequality. Cleaner than joining two comparisons with `and`.
+
 ## Common Mistakes
 - `if age = 18:` → `SyntaxError`. `=` is assignment; `==` is the question
 - Forgetting the colon after the condition: `if x > 0` (no colon) → `SyntaxError`

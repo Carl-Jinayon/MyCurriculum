@@ -161,6 +161,19 @@ The inner loop runs to completion for each outer iteration.
 - [ ] I can explain what `break`, `continue`, and `else` on a loop do
 - [ ] I can trace through a nested loop and predict the output
 
+### Modules & imports — the minimum you need today (full depth: Day 4 Advanced)
+Python's standard library ships batteries you load with `import`:
+
+```python
+import random
+
+n = random.randint(1, 100)   # random integer, both ends INCLUSIVE
+```
+
+- `import random` loads the module; `random.randint(a, b)` calls its function
+- Modules are just other people's `.py` files full of functions — Day 8 adds `json`, `csv`, `pathlib` the same way
+- Full treatment (import styles, `from…import`, seeding, the math module): see Day 4 Advanced §1.5
+
 ## Exercises (exercises/day_04/)
 1. `countdown.py` — ask for a positive integer N, count down from N to 1, print "Liftoff!"
 2. `sum_until_zero.py` — repeatedly ask for numbers, sum them, stop when user enters 0, print total

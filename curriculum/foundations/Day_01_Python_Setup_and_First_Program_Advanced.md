@@ -44,6 +44,40 @@ In the REPL:
 ```
 `help(print)` shows the official explanation of print — the same text I summarized above. Learning to read `help()` is learning to teach yourself.
 
+### Comments, editors, and padding — the survival kit (comprehensive)
+
+**Comments (`#`)** — Python ignores everything after `#` to end of line:
+```python
+# full-line comment: explain WHY, not what
+x = 5    # trailing comment after code
+```
+Good comments explain intent ("skip 16–60 to avoid double-counting"), never restate syntax. Future-you is the main reader.
+
+**Editor survival (nano):**
+```bash
+nano hello.py      # open/create file
+# Ctrl+O → Enter   # save
+# Ctrl+X           # exit
+```
+VS Code or gedit are equally fine — the skill is edit-save-run, whatever the tool.
+
+**Padding via string multiplication** — build lines and boxes from repeated characters:
+```python
+print("=" * 30)          # ==============================
+print("|" + " " * 8 + "|")
+width = 10
+name = "Carl"
+padding = width - len(name)     # compute, don't hardcode!
+print("|" + name + " " * padding + "|")
+```
+This is how aligned receipts and boxes work without format-specifiers: `len()` measures, arithmetic computes, `*` builds. (The f-string `{name:<10}` way arrives Day 2 — same idea, terser.)
+
+**input() hygiene:**
+```python
+raw = input("Name: ").strip()    # kill accidental surrounding spaces NOW
+```
+Users type stray spaces; stripping at the door prevents weird bugs downstream. `.lower()` on free-text input normalizes case for comparisons later.
+
 ## 2. Explore-It-Yourself Guide
 
 Try each experiment, predict the output first, then run:

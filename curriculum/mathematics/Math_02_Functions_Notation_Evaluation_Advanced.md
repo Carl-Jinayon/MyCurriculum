@@ -33,13 +33,24 @@ When you eventually graph functions: if any vertical line crosses the graph twic
 ### Why "domain" will matter more later
 f(x) = x/3 has domain "all numbers" — but a future machine like √x refuses negative inputs, and 10/x refuses zero. Domain thinking = input validation. Your `get_int(prompt, min, max)` from Day 5 was domain enforcement in code!
 
-### Linear functions — the pattern in tables
+### Linear functions — the pattern in tables (fulfilling the promise)
 f(x) = mx + b machines:
 - grow by the SAME amount per step of x (constant rate)
 - m = growth per step ("slope"), b = starting value
 - In your table for 2x+3: outputs went -1, 3, 5... differences: 4, 2? No wait — check with equal x-steps: inputs -2,0,1,4 aren't evenly spaced. Feed it 0,1,2,3: outputs 3,5,7,9 — always +2. That constant +2 IS the coefficient 2.
 
 Detecting the rule from a table: divide "output change" by "input change." This is slope — the heart of linear functions, coming soon.
+
+**Slope formally:** for two points (x₁, y₁) and (x₂, y₂):
+m = (y₂ − y₁) / (x₂ − x₁)     — "rise over run"
+b = the output when x = 0 (the y-intercept — where the machine starts)
+
+**Worked example:** machine outputs 7 when x=2 and 19 when x=5.
+- m = (19 − 7) / (5 − 2) = 12/3 = 4
+- b: f(x) = 4x + b → 7 = 4(2) + b → b = −1
+- Rule: **f(x) = 4x − 1**. Verify on both points. ✓
+
+This is rule-detection from your Hard Mode, now with a general method. Every "constant rate" situation in reality (taxi fares, salaries per hour, distance over time) is a linear function waiting for m and b.
 
 ### Functions with multiple inputs (preview)
 f(x, y) = x + y — machines can take several inputs. Python: `def f(x, y): return x + y`. ML loss functions live here later.

@@ -54,7 +54,22 @@ for f in curriculum/foundations/Day_*.md curriculum/mathematics/Math_*.md; do
 done
 if [ "$incomplete" -eq 0 ]; then pass "all lessons have CheatSheet + Advanced files"; else fail "$incomplete companion file(s) missing"; fi
 
-# 6. Uncommitted changes reminder
+# 6. Exercise directories have matching lesson files
+orphan=0
+for d in exercises/Foundations/day_* exercises/Math/math_*; do
+    [ -d "$d" ] || continue
+    # skip if directory is empty (nothing done yet)
+    [ -n "$(ls -A "$d" 2>/dev/null)" ] || continue
+    num=$(basename "$d" | grep -oE "[0-9]+")
+    case "$d" in
+        *Foundations*) pat="curriculum/foundations/Day_${num}_*.md" ;;
+        *Math*)        pat="curriculum/mathematics/Math_${num}_*.md" ;;
+    esac
+    ls $pat >/dev/null 2>&1 || { echo "  orphan exercise dir (no lesson): $d"; orphan=$((orphan+1)); }
+done
+if [ "$orphan" -eq 0 ]; then pass "all non-empty exercise dirs have matching lessons"; else fail "$orphan orphan exercise dir(s)"; fi
+
+# 7. Uncommitted changes reminder
 if [ -n "$(git status --porcelain)" ]; then
     warn "uncommitted changes exist — commit after verification:"
     git status --short | head -8
