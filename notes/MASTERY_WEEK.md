@@ -19,6 +19,44 @@
 - Progress review verdict: Stage 0 objectives demonstrated at Competent-or-better across the board
 - Then: Stage 1 opens with **Git deep-dive day** (branches/merging/remotes — the formal lesson), then DSA.
 
+## MASTER CHECKLIST — everything before Stage 1
+
+### M1 — Day 9 OOP Primer
+- [ ] Lesson read + 5 exercises (student_class, bank_account, validator_oop, shape_isinstance, class_vs_dict)
+- [ ] Mastery check from memory (Temperature class)
+- [ ] exceptions_02.py rewritten with real understanding
+
+### M2 — Day 8 completion
+- [ ] file_read.py (line numbers + FileNotFoundError)
+- [ ] file_write.py (CSV round-trip + average)
+- [ ] json_config.py (JSON + corrupt-file handling)
+- [ ] log_analyzer.py (BUILD — level counts, malformed tolerance)
+- [ ] Mastery check: safe JSON read pattern from memory
+
+### M3 — Day 10 LHTL + HM backlog
+- [ ] forgetting_curve.txt
+- [ ] mistake_recall.md (4 entries from memory FIRST)
+- [ ] feynman_drill.md
+- [ ] study_protocol.py (spaced-repetition tool)
+- [ ] Hard Mode backlog: ≥2 entries from Days 1–7 (AI-free)
+
+### M4–M5 — Project 1 Expense Tracker
+- [ ] v0.1 menu loop + validation + JSON persistence
+- [ ] v0.2 monthly summary + filters
+- [ ] v0.3 custom exceptions + corrupt-file recovery + validator family
+- [ ] README (decisions, limitations, AI disclosure) + feature-sized commits
+- [ ] Edge cases: empty / corrupt / zero-record month
+
+### M6 — Review Day 2
+- [ ] Cumulative Days 1–8 + Math 01–03 (AI-free)
+- [ ] Re-test all mistake-log entries (currently 4)
+
+### M7 — Closure
+- [ ] Week 02 communication artifact (Feynman, no AI)
+- [ ] Domain journal entry #1
+- [ ] Stage-boundary Progress Review (review_template.md)
+- [ ] Portfolio site skills sync + final push
+
 ## Missed-lessons resolution log
 - OOP primer debt → Day 9 (this week)
 - Learning How to Learn explicit lesson → Day 10 (was implicit since Day 1)
