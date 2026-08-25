@@ -105,7 +105,7 @@ Reach for a class when: multiple functions operate on the same data bundle AND t
 ## Exercises (exercises/Foundations/day_09/)
 1. `student_class.py` — build the `Student` class above from memory; add a `birthday()` method that ages the student +1 and returns the new age.
 2. `bank_account.py` — `BankAccount(owner, balance)` with `deposit(amount)` and `withdraw(amount)`. Withdraw must raise `InsufficientFundsError(needed, available)` — YOUR own exception class inheriting `ValueError`, carrying both numbers as attributes. Write the try/except demo proving it works.
-3. `validator_oop.py` — rewrite your Day 8 `get_positive_int()` using your `PositiveIntegerError(ValueError)` properly, with a docstring explaining the contract.
+3. `validator_oop.py` — build `get_positive_int(prompt)` that keeps asking until the user enters a positive integer, raising your `PositiveIntegerError(ValueError)` when the input is zero/negative before re-prompting, with a docstring explaining the contract (what it returns, what it raises). If you want a starting point, upgrade your own Day 5 `get_int()` from `validator_fn.py` — same loop skeleton, new exception behavior.
 4. `shape_isinstance.py` — `Animal`/`Dog` hierarchy from the lesson; add `Cat`. Loop over `[Dog("Rex"), Cat("Mia"), Animal("?")]` printing each `.speak()` — polymorphism preview.
 5. `class_vs_dict.py` — implement the same student record TWICE: once as dict + standalone function, once as class. In comments: which felt better and why? There's no wrong answer — the comparison IS the lesson.
 
