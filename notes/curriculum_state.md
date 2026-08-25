@@ -21,8 +21,9 @@ Updated: 2026-08-25
 
 ## Current Learning Objective
 - MASTERY WEEK (Stage 0 capstone) — see notes/MASTERY_WEEK.md
-- M1: Day 9 OOP Primer (lessons ready) → redo exceptions_02 with understanding
-- M2: Day 8 core completion · M3: Day 10 LHTL + Hard Mode backlog (AI-free) · M4–M5: Project 1 Expense Tracker (SPEC ready) · M6: Review Day 2 · M7: Stage-boundary Progress Review
+- M1 COMPLETE: Day 9 OOP Primer VERIFIED (2026-08-25) — classes/__init__/self/inheritance/custom exceptions w/ payloads, type-hints unprompted
+- M2 NEXT: Day 8 completion — exceptions_01, file_read, file_write, json_config, log_analyzer build (exceptions_02 satisfied by validator_oop.py)
+- Then: M3 Day 10 LHTL + HM backlog · M4–M5 Project 1 Expense Tracker · M6 Review Day 2 · M7 Progress Review
 - Missed lessons resolved: OOP→Day 9, LHTL→Day 10, Git formal→Stage 1 Day 1
 
 ## Active Threads (in addition to main objective)
