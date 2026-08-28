@@ -49,9 +49,9 @@ Progress is measured by demonstrated capability — running code, passing checks
 See [notes/curriculum_state.md](notes/curriculum_state.md) for the live state.
 
 - Stage: 0 — Foundations
-- Completed: Days 1–7 (setup → types → conditionals → loops → functions → lists → tuples/sets/dicts), Math Days 1–2 (algebra, functions), Review Day 1
-- Current objective: Math Day 3 exercises (logic/sets/combinatorics), then Day 8 (errors/exceptions/file I/O) — final day of Stage 0
-- Threads active: Math (parallel), weekly Communication artifact, Review cycle (every 5 lessons)
+- Completed: Days 1–9 (setup → types → conditionals → loops → functions → lists → tuples/sets/dicts → errors/exceptions/file I/O → OOP Primer), Math Days 1–3 (algebra, functions, logic/sets/combinatorics), Review Day 1
+- Current objective: Day 10 Learning How to Learn (LHTL) + Hard Mode backlog sprint (AI-free); then Project 1 Expense Tracker
+- Threads active: Math (parallel, Day 3 done), weekly Communication artifact, Review cycle (every 5 lessons)
 
 ## Full Subject Map
 

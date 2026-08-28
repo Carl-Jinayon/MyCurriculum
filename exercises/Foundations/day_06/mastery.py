@@ -12,7 +12,7 @@ a[1:4] is 2,3,4
 a[:3] is 1,2,3
 a[::-1] reverses the whole list
 
-list.sort() returns the original list but is modified.
+list.sort() sorts the list without returning something.
 sorted(list) returns a new list that is sorted. It does not change the values of 
 the original list
 """

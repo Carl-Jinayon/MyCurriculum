@@ -1,0 +1,10 @@
+{
+  "theme": "dark",
+  "volume": 5,
+  "language": "en",
+  "autosave": true,
+  "window_size": [
+    800,
+    600
+  ]
+}

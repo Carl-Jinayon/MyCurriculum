@@ -18,7 +18,6 @@ def display_student(student):
 print("Dictionary version:")
 display_student(student_dict)
 
-
 # ==========================================
 # 2. Student record using a class
 # ==========================================

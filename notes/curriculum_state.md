@@ -1,6 +1,6 @@
 # Curriculum State
 
-Updated: 2026-08-25
+Updated: 2026-08-28
 
 > SESSION CHECKLIST (AI: verify ALL before ending any session)
 > [ ] state file updated (objective, threads, completed, date)
@@ -22,12 +22,12 @@ Updated: 2026-08-25
 ## Current Learning Objective
 - MASTERY WEEK (Stage 0 capstone) — see notes/MASTERY_WEEK.md
 - M1 COMPLETE: Day 9 OOP Primer VERIFIED (2026-08-25) — classes/__init__/self/inheritance/custom exceptions w/ payloads, type-hints unprompted
-- M2 NEXT: Day 8 completion — exceptions_01, file_read, file_write, json_config, log_analyzer build (exceptions_02 satisfied by validator_oop.py)
-- Then: M3 Day 10 LHTL + HM backlog · M4–M5 Project 1 Expense Tracker · M6 Review Day 2 · M7 Progress Review
+- M2 COMPLETE: Day 8 errors/exceptions/file I/O VERIFIED (2026-08-28)
+- M3 NEXT: Day 10 Learning How to Learn + Hard Mode backlog sprint (AI-free); then M4–M5 Project 1 Expense Tracker · M6 Review Day 2 · M7 Progress Review
 - Missed lessons resolved: OOP→Day 9, LHTL→Day 10, Git formal→Stage 1 Day 1
 
 ## Active Threads (in addition to main objective)
-- Math thread: Math_01 + Math_02 VERIFIED; Math_03 lessons READY — exercises next
+- Math thread: Math_01 + Math_02 + Math_03 VERIFIED
 - Communication thread: Week 01 done; Week 02 artifact due
 - Review cycle: Review Day 1 complete; next after Day 10
 - Domain journal: starts at first real project
@@ -43,6 +43,10 @@ Updated: 2026-08-25
 - Communication Week 01 (2026-08-22): concepts explained in own words — DONE
 - Day 6 (2026-08-22): lists — VERIFIED (basics/slicing, methods incl. reverse, enumerate + accumulator stats, nested comprehension grid, aliasing demo, filter via comprehension AND loop); coaching note: avoid shadowing built-in names (max/min → maximum/minimum, fixed)
 - Day 7 (2026-08-23): tuples, sets, dicts — VERIFIED (all 6 exercises: tuple basics with immutability demo, set basics with add/discard/membership, dict CRUD with safe .get/delete, inventory management, word frequency counter, contact book with safe lookup/rename); inventory total 22, most stacked = cherry, word counts correct, contact book rename logic working
+- Math Day 2 (2026-08-22): functions notation/evaluation — VERIFIED (forward eval, reverse solve, Python bridge)
+- Math Day 3 (2026-08-24): logic/sets/combinatorics — VERIFIED (truth tables incl. 3-var, set operations, inclusion-exclusion counting; see mistake log entry 4)
+- Day 8 (2026-08-28): errors/exceptions/file I/O — VERIFIED (safe_int, PositiveIntegerError + retry loop, file_read w/ line numbers + FileNotFoundError/PermissionError, scores.csv round-trip w/ headers + average, config.json dump/load + corrupt-file handling, log_analyzer counts ERROR/WARNING/INFO w/ malformed-line tolerance)
+- Day 9 (2026-08-25): OOP Primer — classes/__init__/self/inheritance/custom exceptions w/ payloads, type-hints, validator_oop rewrite — VERIFIED (bank_account, student_class, shape_isinstance, class_vs_dict, validator_oop)
 
 ## Assessed Levels (2026-08-17)
 - Programming: complete beginner
