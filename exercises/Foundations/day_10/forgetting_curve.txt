@@ -1,0 +1,9 @@
+1. Spaced repetition - this spaced repetition is applied from day 1 up until now. Honestly, I am monitoring every day topics for them to be recalled
+from day 1 -> 3 -> 7 -> 2 weeks -> 1 month.
+2. Active recall - I do this everytime there are exercises. Without looking at the notes (any notes) just by remembering it using the memory. It helps me retains what I learn.
+After remembering that helps me get a solution to the exercises.
+3. Deliberate Practice - Since every topics has a hard mode, that serves as my training ground that makes me think beyond and for edge cases. That is where practice happens.
+4. Interleaving - This is applied from each day exercises. Those exercises are created for the learner(me) to come up with a solution with a multiple ways. This lets me choose
+wisely of what way should I create a program of the solution for the exercise.
+5. Feyman - This technique was applied especially to the notes week one. Where I wrote couple of paragraph that explains concepts for what I remember, I explain concepts from the 
+very beginning up to the loop. That actually helps me find out the gaps. Like if I cannot explain it then I have a lack of understanding for it.

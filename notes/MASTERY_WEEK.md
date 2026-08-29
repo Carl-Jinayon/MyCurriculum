@@ -34,10 +34,10 @@
 - [ ] Mastery check: safe JSON read pattern from memory
 
 ### M3 — Day 10 LHTL + HM backlog
-- [ ] forgetting_curve.txt
-- [ ] mistake_recall.md (4 entries from memory FIRST)
-- [ ] feynman_drill.md
-- [ ] study_protocol.py (spaced-repetition tool)
+- [x] forgetting_curve.txt
+- [x] mistake_recall.md (4 entries from memory FIRST)
+- [x] feynman_drill.md
+- [x] study_protocol.py (spaced-repetition tool)
 - [ ] Hard Mode backlog: ≥2 entries from Days 1–7 (AI-free)
 
 ### M4–M5 — Project 1 Expense Tracker

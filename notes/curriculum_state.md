@@ -1,6 +1,6 @@
 # Curriculum State
 
-Updated: 2026-08-28
+Updated: 2026-08-29
 
 > SESSION CHECKLIST (AI: verify ALL before ending any session)
 > [ ] state file updated (objective, threads, completed, date)
@@ -23,13 +23,14 @@ Updated: 2026-08-28
 - MASTERY WEEK (Stage 0 capstone) — see notes/MASTERY_WEEK.md
 - M1 COMPLETE: Day 9 OOP Primer VERIFIED (2026-08-25) — classes/__init__/self/inheritance/custom exceptions w/ payloads, type-hints unprompted
 - M2 COMPLETE: Day 8 errors/exceptions/file I/O VERIFIED (2026-08-28)
-- M3 NEXT: Day 10 Learning How to Learn + Hard Mode backlog sprint (AI-free); then M4–M5 Project 1 Expense Tracker · M6 Review Day 2 · M7 Progress Review
+- M3 Day 10 COMPLETE: Learning How to Learn VERIFIED (2026-08-29). HM backlog (≥2 Hard Mode from Days 1–7, AI-free) still pending.
+- M4–M5 NEXT: Project 1 Expense Tracker (v0.1–v0.3 + README + feature commits); then M6 Review Day 2 · M7 Progress Review
 - Missed lessons resolved: OOP→Day 9, LHTL→Day 10, Git formal→Stage 1 Day 1
 
 ## Active Threads (in addition to main objective)
 - Math thread: Math_01 + Math_02 + Math_03 VERIFIED
 - Communication thread: Week 01 done; Week 02 artifact due
-- Review cycle: Review Day 1 complete; next after Day 10
+- Review cycle: Review Day 1 complete; Review Day 2 scheduled after Project 1 (M6)
 - Domain journal: starts at first real project
 
 ## Completed Objectives
@@ -46,6 +47,7 @@ Updated: 2026-08-28
 - Math Day 2 (2026-08-22): functions notation/evaluation — VERIFIED (forward eval, reverse solve, Python bridge)
 - Math Day 3 (2026-08-24): logic/sets/combinatorics — VERIFIED (truth tables incl. 3-var, set operations, inclusion-exclusion counting; see mistake log entry 4)
 - Day 8 (2026-08-28): errors/exceptions/file I/O — VERIFIED (safe_int, PositiveIntegerError + retry loop, file_read w/ line numbers + FileNotFoundError/PermissionError, scores.csv round-trip w/ headers + average, config.json dump/load + corrupt-file handling, log_analyzer counts ERROR/WARNING/INFO w/ malformed-line tolerance)
+- Day 10 (2026-08-29): Learning How to Learn — VERIFIED (forgetting_curve: 5 techniques + one place each; mistake_recall: 4 entries from memory; feynman_drill: weakest concept explained to 12-year-old no-jargon; study_protocol.py spaced-repetition JSON tool w/ bootstrap)
 - Day 9 (2026-08-25): OOP Primer — classes/__init__/self/inheritance/custom exceptions w/ payloads, type-hints, validator_oop rewrite — VERIFIED (bank_account, student_class, shape_isinstance, class_vs_dict, validator_oop)
 
 ## Assessed Levels (2026-08-17)
@@ -75,9 +77,14 @@ Updated: 2026-08-28
 - Tuples: immutability, unpacking, single-element syntax, indexing/slicing, when to use
 - Sets: creation, deduping, add/discard/remove, membership testing, union/intersection/difference, no indexing
 - Dicts: CRUD, safe access with .get(), .get() for conditional deletion, .items() iteration, nested dicts, counting pattern
+- Day 8 (verified): try/except/else/finally; raises and defines custom exceptions (PositiveIntegerError); file I/O with `with`; CSV round-trip with header + DictReader/DictWriter (scores.csv average); JSON dump/load with corrupt-file + missing-file handling (config.json); log parsing/counting with malformed-line tolerance (log_analyzer.py)
+- Day 9 (verified): OOP — classes, __init__, self, inheritance; custom exceptions with payloads (InsufficientFundsError/InvalidDepositAmount); type hints; validator_oop rewrite (bank_account.py, student_class.py, shape_isinstance.py, class_vs_dict.py)
+- Day 10 (verified): names the five learning techniques and where the curriculum applies each; recalls all 4 mistake-log entries from memory; explains a concept Feynman-style (12-year-old, no jargon); built study_protocol.py spaced-repetition JSON tool
 
 ## Weak Areas
-- All foundational areas (by assessment, not failure)
+- No major weak areas demonstrated at Stage 0 close; learner is in consolidation/integration stage (Project 1 next)
+- Residual notes: int() truncates floats rather than raising (clarified); list.sort() returns None (mutator, not producer) — both reinforced
+- Upcoming risk: integrating many concepts in Project 1; spaced-repetition discipline depends on actually using study_protocol.py
 
 ## Current Projects
 - None
