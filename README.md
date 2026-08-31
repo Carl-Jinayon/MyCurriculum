@@ -50,7 +50,7 @@ See [notes/curriculum_state.md](notes/curriculum_state.md) for the live state.
 
 - Stage: 0 — Foundations
 - Completed: Days 1–10 (setup → types → conditionals → loops → functions → lists → tuples/sets/dicts → errors/exceptions/file I/O → OOP Primer → Learning How to Learn), Math Days 1–3 (algebra, functions, logic/sets/combinatorics), Review Day 1
-- Current objective: Hard Mode backlog (≥2 from Days 1–7, AI-free) + Project 1 Expense Tracker (v0.1–v0.3)
+- Current objective: Project 1 Expense Tracker (v0.1–v0.3) — Stage 0 capstone; then Review Day 2 + Progress Review
 - Threads active: Math (parallel, Day 3 done), weekly Communication artifact, Review cycle (every 5 lessons)
 
 ## Full Subject Map

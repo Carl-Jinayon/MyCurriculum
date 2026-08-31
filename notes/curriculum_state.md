@@ -23,8 +23,8 @@ Updated: 2026-08-29
 - MASTERY WEEK (Stage 0 capstone) — see notes/MASTERY_WEEK.md
 - M1 COMPLETE: Day 9 OOP Primer VERIFIED (2026-08-25) — classes/__init__/self/inheritance/custom exceptions w/ payloads, type-hints unprompted
 - M2 COMPLETE: Day 8 errors/exceptions/file I/O VERIFIED (2026-08-28)
-- M3 Day 10 COMPLETE: Learning How to Learn VERIFIED (2026-08-29). HM backlog (≥2 Hard Mode from Days 1–7, AI-free) still pending.
-- M4–M5 NEXT: Project 1 Expense Tracker (v0.1–v0.3 + README + feature commits); then M6 Review Day 2 · M7 Progress Review
+- M3 Day 10 COMPLETE: Learning How to Learn VERIFIED (2026-08-29). Hard Mode backlog VERIFIED (2026-08-29): leap_year/collatz/invert_dict (+interleave bonus), exercises/Foundations/hardmode_exercises1-7/, AI-free.
+- M4–M5 NOW: Project 1 Expense Tracker (v0.1–v0.3 + README + feature commits); then M6 Review Day 2 · M7 Progress Review
 - Missed lessons resolved: OOP→Day 9, LHTL→Day 10, Git formal→Stage 1 Day 1
 
 ## Active Threads (in addition to main objective)
@@ -48,6 +48,7 @@ Updated: 2026-08-29
 - Math Day 3 (2026-08-24): logic/sets/combinatorics — VERIFIED (truth tables incl. 3-var, set operations, inclusion-exclusion counting; see mistake log entry 4)
 - Day 8 (2026-08-28): errors/exceptions/file I/O — VERIFIED (safe_int, PositiveIntegerError + retry loop, file_read w/ line numbers + FileNotFoundError/PermissionError, scores.csv round-trip w/ headers + average, config.json dump/load + corrupt-file handling, log_analyzer counts ERROR/WARNING/INFO w/ malformed-line tolerance)
 - Day 10 (2026-08-29): Learning How to Learn — VERIFIED (forgetting_curve: 5 techniques + one place each; mistake_recall: 4 entries from memory; feynman_drill: weakest concept explained to 12-year-old no-jargon; study_protocol.py spaced-repetition JSON tool w/ bootstrap)
+- Hard Mode backlog (2026-08-29): ≥2 Hard Mode stretches from Days 1–7, AI-free — VERIFIED (leap_year→Day 3, collatz→Day 5, invert_dict→Day 7, interleave→Day 6 bonus; all in exercises/Foundations/hardmode_exercises1-7/)
 - Day 9 (2026-08-25): OOP Primer — classes/__init__/self/inheritance/custom exceptions w/ payloads, type-hints, validator_oop rewrite — VERIFIED (bank_account, student_class, shape_isinstance, class_vs_dict, validator_oop)
 
 ## Assessed Levels (2026-08-17)

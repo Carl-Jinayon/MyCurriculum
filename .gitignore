@@ -29,3 +29,6 @@ tmp/
 # Deployment (not used yet)
 dist/
 build/
+
+# Project data (user-specific, not source code)
+projects/*/expenses.json

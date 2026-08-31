@@ -38,7 +38,7 @@
 - [x] mistake_recall.md (4 entries from memory FIRST)
 - [x] feynman_drill.md
 - [x] study_protocol.py (spaced-repetition tool)
-- [ ] Hard Mode backlog: ≥2 entries from Days 1–7 (AI-free)
+- [x] Hard Mode backlog: 4 entries (Days 1–7, AI-free) — leap_year (Day 3), collatz (Day 5), invert_dict (Day 7), interleave (Day 6, bonus) in exercises/Foundations/hardmode_exercises1-7/ — VERIFIED 2026-08-29
 
 ### M4–M5 — Project 1 Expense Tracker
 - [ ] v0.1 menu loop + validation + JSON persistence

@@ -48,6 +48,7 @@ def load_json(path="protocol.json"):
             content = json.load(f)
     except FileNotFoundError:
         print("File does not exist.")
+        print("Creating file with default values...")
         write_default_value()   
         return DEFAULT_VALUE
     except PermissionError:
@@ -56,6 +57,7 @@ def load_json(path="protocol.json"):
         return DEFAULT_VALUE
     except json.JSONDecodeError:
         print("Json file is corrupted.")
+        print("Creating file with default values...")
         write_default_value()
         return DEFAULT_VALUE
     else:
@@ -163,8 +165,9 @@ def get_completed(path="protocol.json"):
 
 def main():
     today = date.today()
+    print("Welcome to Study Protocol!")
     while True:
-        print("1. Insert new topic" \
+        print("\n1. Insert new topic" \
             "\n2. View topics to recall today" \
             "\n3. View missed recalls" \
             "\n4. View completed recalls" \
