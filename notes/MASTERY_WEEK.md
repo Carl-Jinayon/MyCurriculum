@@ -41,8 +41,8 @@
 - [x] Hard Mode backlog: 4 entries (Days 1–7, AI-free) — leap_year (Day 3), collatz (Day 5), invert_dict (Day 7), interleave (Day 6, bonus) in exercises/Foundations/hardmode_exercises1-7/ — VERIFIED 2026-08-29
 
 ### M4–M5 — Project 1 Expense Tracker
-- [ ] v0.1 menu loop + validation + JSON persistence
-- [ ] v0.2 monthly summary + filters
+- [x] v0.1 menu loop + validation + JSON persistence — VERIFIED 2026-08-30
+- [x] v0.2 monthly summary + filters (category, month, both) + modular refactor — VERIFIED 2026-08-30
 - [ ] v0.3 custom exceptions + corrupt-file recovery + validator family
 - [ ] README (decisions, limitations, AI disclosure) + feature-sized commits
 - [ ] Edge cases: empty / corrupt / zero-record month

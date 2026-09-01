@@ -1,0 +1,26 @@
+[
+  {
+    "amount": 250.0,
+    "category": "food",
+    "date": "2026-08-24",
+    "note": "lunch"
+  },
+  {
+    "amount": 1500.0,
+    "category": "rent",
+    "date": "2026-08-01",
+    "note": "august rent"
+  },
+  {
+    "amount": 80.0,
+    "category": "transport",
+    "date": "2026-08-25",
+    "note": "gas"
+  },
+  {
+    "amount": 300.0,
+    "category": "food",
+    "date": "2026-09-01",
+    "note": "sept food"
+  }
+]
