@@ -43,7 +43,7 @@
 ### M4–M5 — Project 1 Expense Tracker
 - [x] v0.1 menu loop + validation + JSON persistence — VERIFIED 2026-08-30
 - [x] v0.2 monthly summary + filters (category, month, both) + modular refactor — VERIFIED 2026-08-30
-- [ ] v0.3 custom exceptions + corrupt-file recovery + validator family
+- [x] v0.3 custom exceptions + corrupt-file recovery + get_* input family — VERIFIED 2026-09-02
 - [ ] README (decisions, limitations, AI disclosure) + feature-sized commits
 - [ ] Edge cases: empty / corrupt / zero-record month
 

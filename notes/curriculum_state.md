@@ -1,6 +1,6 @@
 # Curriculum State
 
-Updated: 2026-08-30
+Updated: 2026-09-02
 
 > SESSION CHECKLIST (AI: verify ALL before ending any session)
 > [ ] state file updated (objective, threads, completed, date)
@@ -24,7 +24,7 @@ Updated: 2026-08-30
 - M1 COMPLETE: Day 9 OOP Primer VERIFIED (2026-08-25) — classes/__init__/self/inheritance/custom exceptions w/ payloads, type-hints unprompted
 - M2 COMPLETE: Day 8 errors/exceptions/file I/O VERIFIED (2026-08-28)
 - M3 Day 10 COMPLETE: Learning How to Learn VERIFIED (2026-08-29). Hard Mode backlog VERIFIED (2026-08-29): leap_year/collatz/invert_dict (+interleave bonus), exercises/Foundations/hardmode_exercises1-7/, AI-free.
-- M4–M5 NOW: Project 1 Expense Tracker — v0.1 VERIFIED (2026-08-30), v0.2 VERIFIED (2026-08-30); v0.3 next (custom exceptions + corrupt-file recovery); then M6 Review Day 2 · M7 Progress Review
+- M4–M5 NOW: Project 1 Expense Tracker — v0.1 VERIFIED (2026-08-30), v0.2 VERIFIED (2026-08-30), v0.3 VERIFIED (2026-09-02); README + domain journal next; then M6 Review Day 2 · M7 Progress Review
 - Missed lessons resolved: OOP→Day 9, LHTL→Day 10, Git formal→Stage 1 Day 1
 
 ## Active Threads (in addition to main objective)
